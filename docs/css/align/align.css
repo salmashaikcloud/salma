@@ -1,0 +1,55 @@
+.margin {
+    margin: auto;
+    border: 1px solid black;
+    width: 400px;
+}
+
+.text-align {
+    text-align: center;
+    border: 1px solid black;
+    width: 400px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.position {
+    position:relative;
+    left: 50px;
+    border: 1px solid black;
+    width: 400px;
+}
+
+.float {
+    float: right;
+    border: 1px solid black;
+}
+
+.padding1 {
+    padding: 50px 0px;
+    border: 1px solid black;
+    height: 20px;
+    clear: right;
+}
+
+.padding2 {
+    padding: 50px 0px;
+    text-align: center;
+    border: 1px solid black;
+    height: 20px;
+}
+
+.line-height1 {
+    line-height: 100px;
+    border: 1px solid black;
+    height: 100px;
+}
+
+.line-height2 {
+    line-height: 100px;
+    text-align: center;
+    border: 1px solid black;
+    height: 100px;
+}

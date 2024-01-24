@@ -1,0 +1,28 @@
+What is combinators?
+    A combinator is somthing that explains the relationship between the selectors.
+    A CSS selector can contain more than one simple selector.
+    Between the simple selectors we can include a combinator.
+--
+What are the different types of combinators?
+    1. descendant selector (space)
+    2. child selector (>)
+    3. adjacent sibling selector (+)
+    4. general sibling selector (~)
+--
+What is descendant selector?
+    It is used to matches all elements that are descendant of a specified element.
+    The descendent combinator is represented by using single space.
+    Syntax:
+    parent-element child-element {
+        /*properties declaration*/
+    }
+--
+What is child selector?
+    The child selector selects all the elements that are the children of a 
+    specified element.
+    The child combinator is represented by using '>' symbol.
+    Syntax:
+    parent-element > child-element {
+        /*properties declaration*/
+    }
+--

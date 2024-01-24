@@ -1,0 +1,49 @@
+.visible {
+    width: 200px;
+    height: 125px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    overflow: visible;
+}
+
+.hidden {
+    width: 200px;
+    height: 125px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    overflow: hidden;
+    float: right;
+}
+
+.scroll {
+    width: 200px;
+    height: 125px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    overflow: scroll;
+    clear: both;
+}
+
+.auto {
+    width: 200px;
+    height: 125px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    overflow: auto;
+}
+
+.inherit {
+    width: 200px;
+    height: 125px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    overflow: inherit;
+}
+
+.initial {
+    width: 200px;
+    height: 125px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    overflow: initial;
+}

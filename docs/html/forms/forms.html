@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+
+<body>
+    <h2 style="text-align: center;">Form</h2>
+    <form>
+        <fieldset>
+            <legend> Personal Information </legend>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required><br>
+            <label for="middleName">Middle Name:</label>
+            <input type="text" id="middleName" name="middleName"><br>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName">
+            <br>
+            <div>Gender:</div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="others" name="gender" value="others">
+            <label for="others">Others</label>
+            <br>
+            <label for="dob">Date Of Birth:</label>
+            <input type="date" id="dob" name="dob" min="1990-1-1" max="2005-12-31"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <div>Languages:</div>
+            <input type="checkbox" id="telugu" name="languages" value="telugu">
+            <label for="telugu">Telugu</label><br>
+            <input type="checkbox" id="hindi" name="languages" value="hindi">
+            <label for="hindi">Hindi</label><br>
+            <input type="checkbox" id="english" name="languages" value="english">
+            <label for="english">English</label><br>
+            <input type="checkbox" id="tamil" name="languages" value="tamil">
+            <label for="tamil">Tamil</label><br>
+            <input type="checkbox" id="urdu" name="languages" value="urdu">
+            <label for="urdu">Urdu</label><br>
+            <input type="checkbox" id="marati" name="languages" value="marati">
+            <label for="marati">Marati</label><br>
+            <label for="your-self">Write Something About Your Self:</label><br>
+            <textarea name="message" rows="10" colms="30" id="your-self"> textarea </textarea><br>
+            <label for="color">Select your favorite color:</label>
+            <input type="color" id="color" name="color">
+        </fieldset>
+        <label for="branch">Choose branch name:</label>
+        <select id="branch">
+            <option>CSE</option>
+            <option selected>ECE</option>
+            <option>EEE</option>
+            <option>MECH</option>
+            <option>CIVIL</option>
+            <option>IT</option>
+        </select>
+        <br>
+        <input type="submit" value="submit">
+        <button type="button" onclick="window.alert('we will learn javascript soon')">Validate</button>
+        <input type="reset">
+        <input type="button" onclick="window.alert('we will learn javascript soon')" value="Click Me!">
+    </form>
+</body>
+
+</html>

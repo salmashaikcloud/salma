@@ -1,0 +1,45 @@
+What are the different input values?
+
+    <input type="text">
+    <input type="number">
+    <input type="password">
+
+    <input type="email">
+    <input type="tel">
+    <input type="url">
+    
+    <input type="radio">
+    <input type="checkbox">
+
+    <input type="search">
+
+    <input type="date">
+    <input type="time">
+    <input type="datetime-local">
+    <input type="week">
+    <input type="month">
+
+    <input type="file">
+    <input type="image">
+
+    <input type="submit">
+    <input type="button">
+    <input type="reset">
+
+    <input type="color">
+    <input type="hidden">
+    <input type="range">
+
+What are the difference between input type="submit", "button" and "reset"?
+    submit:
+        submits the form to middleware.
+    button:
+        it calls JavaScript.
+    reset:
+        it resets to its default value.
+--
+What is the difference between input type="radio" and "checkbox"?
+    radio:
+        we can select only one of many.
+    checkbox:
+        we can select zero to many.

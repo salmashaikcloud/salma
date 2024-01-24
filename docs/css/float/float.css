@@ -1,0 +1,33 @@
+.fleft {
+    float: left;
+    width: 33.22%
+}
+
+.none {
+    float: none;
+    height: 150px;
+    width: 150px;
+}
+
+.left {
+    float: left;
+    height: 150px;
+    width: 150px;
+}
+
+.right {
+    float: right;
+    height: 150px;
+    width: 150px;
+}
+
+.inherit {
+    float: inherit;
+    height: 150px;
+    width: 150px;
+}
+div{
+    border: 1px solid black;
+    /*clear:both;
+    overflow:auto;*//*clearfix-hack*/
+}

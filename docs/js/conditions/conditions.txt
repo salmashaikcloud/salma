@@ -1,0 +1,81 @@
+Why we need to use conditional statements?
+    Conditional statements are used to perform different actions based on 
+    different conditions.
+--
+What are the conditional statements?
+    There are four types:
+    1. if
+    2. else
+    3. else if ladder
+    4. switch case
+--
+What is if statement?
+    To specify a block of code to be executed if a condition is true.
+    Or
+    if the specified condition is true, then only if block of code will execute.
+Syntax:
+    if (condition) {
+        // block of code to be executed if the condition is true
+    }
+Example:
+    if(age >=18){
+        //write a logic for applying voter card
+    }
+--
+What is else statement?
+    To specify a block of code to be executed if condition is false.
+    Or
+    if the specified condition is false, then only else block of code will execute.
+Syntax:
+    if (condition) {
+        // block of code to be executed if the condition is true
+    }
+    else {
+        // block of code to be executed if the condition is false
+    }
+Example:
+    if(age >= 18) {
+        //write a logic for applying voter card
+    }
+    else {
+        //write a logic to show information of the user
+    }
+--
+What is else if statement?
+    To specify a block of code to be executed if the first condition is false.
+    Or
+    else if statement is used to specify a new condition.
+    if the condition is true, it will execute if block.
+    if the condition is false, it will execute else block.
+Syntax:
+    if (condition1) {
+        // block of code to be executed if the condition1 is true
+    }
+    else if(condition2){
+        // block of code to be executed if the condition1 is false and condition2 is true
+    }
+    else {
+        // block of code to be executed if the condition1 and condition2 is false
+    }
+Example:
+    if(class<=5) {
+        //Go to Primary school
+    }
+    else if(class<=10) {
+        //Go to High school
+    }
+    else if(class<=12) {
+        //Go to Inter college
+    }
+    else if(class<=15) {
+        //Go to Degree college
+    }
+    else {
+        //Go to PG college
+    }
+What is switch case?
+    if you want to check more conditions (more than 4), its better to use switch 
+    instead of else if ladder.
+--
+Difference between else if ladder and switch?
+    

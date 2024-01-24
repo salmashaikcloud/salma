@@ -1,0 +1,59 @@
+What is align?
+    Align is used for positioning/alignment of the elements, text, image and etc...,
+--
+What are the types of align?
+    There are two types:
+    1. Horizontal align.
+    2. Vertical align.
+--
+What is horizontal align?
+    Its align the elements only horizontally.
+--
+How can you align the elements?
+    By using margin property you can align the elements in horizontally.
+    Syntax:
+        margin: value;
+Note:
+    Center aligning has no effect if the width property is not set.
+    Margin property used for block elements only.
+--
+How can you align the text?
+    By using text-align property you can align the text in horizontally.
+    Syntax:
+        text-align: value;
+--
+How can you align an image?
+    By applying margin property and 'display: block;' you can align the images horizontally.
+    Syntax:
+        img {
+            display: block;
+            margin: value;
+        }
+--
+Can you use the position property for alignment?
+    Yes, you can use the position property for aligning elements.
+    Syntax:
+        position: value;
+--
+Can you use the float property for alignment?
+    Yes, you can use the float property for aligning elements.
+    Syntax:
+        float: value;
+--
+What is vertical align?
+    Its align the elements only vertically.
+    For simple align we can use padding/line-height.
+Note:
+    The padding and line-height are not-options, another solutions
+    to use positioning and the transform property.
+--
+How can you center both by vertically and horizontally?
+    By using padding and text-align: center.
+
+Doubts:
+    transform property
+    display: flex
+    justify-content property
+    align-items property
+    margin-top and bottom
+    vertical-align property

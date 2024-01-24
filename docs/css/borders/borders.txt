@@ -1,0 +1,79 @@
+What is the purpose of CSS Borders properties?
+    The CSS border properties allow you to specify the style,
+    width, and color of an element border.
+--
+What are the broder properties?
+    1. border-style
+    2. border-width
+    3. border-color
+    4. border (shorthand property)
+    5. border-radius
+--
+What is border-style property?
+    It specifies what kind of border to display.
+    Syntax:
+        border-style: value;
+Note:
+    None of the other CSS border properties will have any effect
+    unless the border-style property is set.
+--
+Specific Side styles
+    The border-style property can have one to four values (for the top
+    border, right border, bottom border, and the left border)
+    Examples:
+        border-style: solid;
+            -solid specifies the style for four borders.
+        --
+        border-style: dotted dashed;
+            -dotted specifies the style for top and bottom.
+            -dashed specifies the style for right and left.
+        --
+        border-style: top right bottom left;
+--
+What is border-width property?
+    It specifies the width of the four borders.
+    Syntax:
+        border-width: value;
+--
+Specific Side Widths
+    The border-width property can have one to four values (for the top
+    border, right border, bottom border, and the left border)
+    Examples:
+        border-width: 10px;
+            -10px specifies the width for four borders.
+        --
+        border-width: 10px 20px;
+            -10px specifies the width for top and bottom.
+            -20px specifies the width for right and left.
+        --
+        border-width: top right bottom left;
+--
+What is border-color property?
+    It is used to set the color of the four borders.
+    Syntax:
+        border-color: value;
+--
+Specific Side Color
+    The border-color property can have one to four values (for the top
+    border, right border, bottom border, and the left border)
+    Examples:
+        border-color: red;
+            -red color specifies the color for four borders.
+        --
+        border-color: red green;
+            -red color specifies the color for top and bottom.
+            -green color specifies the color for right and left.
+        --
+        border-color: top right bottom left;
+--
+What is border property?
+    It is a shorthand property.
+    It specifies all the border properties in one single property.
+    Syntax:
+        border: width style color;
+--
+What is border-radius property?
+    It is used to add rounded borders to an element.
+    Syntax:
+        border-radius: value;
+--

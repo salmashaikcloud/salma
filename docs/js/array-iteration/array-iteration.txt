@@ -1,0 +1,215 @@
+Array Iteration:
+    Array iteration methods operate on every array item.
+--
+What is forEach?
+    The forEach() method calls a function (a callback function) 
+    once for each array element.
+    Syntax:
+        array.forEach(myFunction);
+        function myFunction(value, index, array) {
+            //block of code
+        }
+    Example:
+        let employees = ["Salma", "Durga", "Sushma", "Azhar"];
+        employee = "";
+        employees.forEach(myFunction);
+
+        function myFunction(value) {
+            employee += value + "\n";
+        }
+--
+What is Array map?
+    The map() method creates a new array by performing a function on each array element.
+    The map() method does not execute the function for array elements without values.
+    The map() method does not change the original array.
+    Syntax:
+        array.map(myFunction);
+        function myFunction(value, index, array) {
+            //block of code
+        }
+    Example:
+        let numbers = [54, 68, 55, 15, 44, 4];
+        numbers.map(myFunction);
+
+        function myFunction(value) {
+            return value * 2;
+        }
+-- 
+What is Array flatMap?
+    The flatMap() method first maps all elements of an array and then creates a new array 
+    by flattening the array.
+    Syntax:
+        array.flatMap((x) => x * 2);
+--
+What is Array filter?
+    The filter() method creates a new array with array elements that pass a test.
+    Syntax:
+        array.map(myFunction);
+        function myFunction(value, index, array) {
+            //block of code
+        }
+    Example:
+        let numbers = [54, 68, 55, 15, 44, 4];
+        numbers.filter(myFunction);
+
+        function myFunction(value) {
+            return value > 30;
+        }
+-- 
+What is Array reduce?
+    The reduce() method runs a function on each array element to produce (reduce it to) a single value.
+    The reduce() method works from left-to-right in the array.
+    The reduce() method does not reduce the original array.
+    Syntax:
+        array.reduce(myFunction);
+        function myFunction(total, value, index, array) {
+            //block of code
+        }
+    Example:
+        let numbers = [54, 68, 55, 15, 44, 4];
+        numbers.reduce(myFunction);
+
+        function myFunction(total, value) {
+            return total + value;
+        }
+-- 
+What is Array reduceRight?
+    The reduceRight() method runs a function on each array element to produce (reduce it to) a single value.
+    The reduceRight() works from right-to-left in the array.
+    The reduceRight() method does not reduce the original array.
+    Syntax:
+        array.reduceRight(myFunction);
+        function myFunction(total, value, index, array) {
+            //block of code
+        }
+    Example:
+        let numbers = [54, 68, 55, 15, 44, 4];
+        numbers.reduceRight(myFunction);
+
+        function myFunction(total, value) {
+            return total + value;
+        }
+-- 
+What is Array every?
+    The every() method checks if all array values pass a test.
+    Syntax:
+        array.every(myFunction);
+        function myFunction(value, index, array) {
+            //block of code
+        }
+    Example:
+        let numbers = [54, 68, 55, 15, 44, 4];
+        numbers.every(myFunction);
+
+        function myFunction(value) {
+            return value > 30;
+        }
+--
+What is Array some?
+    The some() method checks if some array values pass a test.
+    Syntax:
+        array.some(myFunction);
+        function myFunction(value, index, array) {
+            //block of code
+        }
+    Example:
+        let numbers = [54, 68, 55, 15, 44, 4];
+        numbers.some(myFunction);
+
+        function myFunction(value) {
+            return value > 30;
+        }
+--
+What is Array indexOf?
+    The indexOf() method searches an array for an element value and 
+    returns its position/indexValue.
+    Syntax:
+        array.indexOf(item, start);
+    Example:
+        let employees = ["Salma", "Durga", "Sushma", "Azhar"];
+        console.log(employees.indexOf("Salma"));
+Note: Array.indexOf() returns -1 if the item is not found.
+    If the item is present more than once, it returns the position of the first occurrence.
+--
+What is Array lastIndexOf?
+    Array.lastIndexOf() is the same as Array.indexOf(), but returns the position of the 
+    last occurrence of the specified element.
+    Syntax:
+        array.lastIndexOf(item, start);
+    Example:
+        let employees = ["Salma", "Durga", "Salma", "Sushma", "Azhar"];
+        console.log(employees.lastIndexOf("Salma"));
+--
+What is Array find?
+    The find() method returns the value of the first array element that passes a test function.
+    Syntax:
+        array.find(myFunction);
+        function myFunction(value, index, array) {
+            //block of code
+        }
+    Example:
+        let numbers = [54, 68, 55, 15, 44, 4];
+        numbers.find(myFunction);
+
+        function myFunction(value) {
+            return value > 30;
+        }
+--
+What is Array findIndex?
+    The find() method returns the index of the first array element that passes a test function.
+    Syntax:
+        array.findIndex(myFunction);
+        function myFunction(value, index, array) {
+            //block of code
+        }
+    Example:
+        let numbers = [54, 68, 55, 15, 44, 4];
+        numbers.findIndex(myFunction);
+
+        function myFunction(value) {
+            return value > 30;
+        }
+--
+What is Array.from?
+    The Array.from() method returns an Array object from any object with a length property or 
+    any iterable object.
+    Create an array from a string:
+        Array.from("Salma");
+--
+What is Array Keys?
+    The Array.keys() method returns an Array Iterator object with the keys of an array.
+    Returns the element index.
+    Example:
+        let employees = ["Salma", "Durga", "Sushma", "Azhar"];
+        let keys = employees.keys();
+        let employee = "";
+        for (let values of keys) {
+            employee += values + "\n";
+        }
+        console.log(employee);
+--
+What is Array entries?
+    The entries() method returns an Array Iterator object with key/value pairs.
+    Example:
+        let employees = ["Salma", "Durga", "Sushma", "Azhar"];
+        let entries = employees.entries();
+        let employee = "";
+        for (let values of entries) {
+            employee += values + "\n";
+        }
+        console.log(employee);
+--
+What is Array includes?
+    The includes() method allows us to check if an element is present in an array.
+    Syntax:
+        array.includes("item");
+    Example:
+        let employees = ["Salma", "Durga", "Sushma", "Azhar"];
+        console.log(employees.includes("Durga"));
+--
+What is Array spread(...)?
+    The ... operator expands an iterable (like an array) into more elements.
+    Example:
+        let employees = ["Salma", "Durga", "Sushma", "Azhar"];
+        console.log(...employees);
+--

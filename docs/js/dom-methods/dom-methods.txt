@@ -1,0 +1,18 @@
+What are HTML DOM Methods?
+    HTML DOM methods are actions yon can perform on HTML elements.
+    HTML DOM properties are values of HTML Elements that you can set are change.
+--
+What is getElementById Method?
+	The most common way to access an HTML element is to use the id of the 
+	element.
+		or
+    Find an element by element id.
+		or
+    It changes contain of html by using id.
+    Syntax:
+        document.getElementById("id").innerHTML = "value";
+	Example:
+		document.getElementById("heading").innerHTML = "DOM Objects";
+--
+What is getElementByTagName Method?
+	Find elements by tag name

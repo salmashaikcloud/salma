@@ -1,0 +1,26 @@
+What is difference between athentication and authorization?
+Different between athentication and unathetication?
+what is different between anamous and athentication?
+What is the difference between static content and non static content in java 
+What is ternary operater?
+What is the difference jar and war?
+What is interface?
+What is serializable?
+What is difference between java.util.date and java.sql.date?
+Example about System.out.println()?
+How can you restrict object creation in java?
+What is java bean?
+Why to use java bean?
+Object deligation?
+Can we create object for abstract class?
+    No
+What is the native keyword in java?
+what is collection in java ?
+what type of collection available in java ?
+what is list object ?
+what is set object ?
+what is map object ?
+what is difference between araylist and linked and stack ?
+what is differece between hashset treeset ?
+what is the difference between hashtable hashmap and linkedhashmap ?
+What is class?

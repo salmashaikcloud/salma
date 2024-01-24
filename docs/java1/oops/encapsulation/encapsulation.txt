@@ -1,0 +1,24 @@
+What is Encapsulation?
+    Datahiding + Abstraction 
+    The process of binding the data/properties and its corresponding methods into a
+    single unit is called encapsulation.
+    Declaring the properties as private methods as public is called
+    Encapsulation.
+--
+What is tightly or fully encapsulated class?
+    A class is said to be tightly encapsulated if and only if each and every
+    variable declared as private.
+    We no need to check the below points.
+    Whether class contains corresponding getter and setter methods are not.
+    Whether getter and setter methods are declared as public or not.
+--
+The main advantages of encapsulation are:
+    We can achive the security
+    Enhancement become easy 
+    It improves maintainability of the application
+--
+The main disadvantage of encapsulation is
+    It increase length of the code and slows down execution.
+--
+The Java Bean class or Entity is the example of a tightly or 
+fully encapsulated class or Entity.

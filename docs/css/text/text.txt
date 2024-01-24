@@ -1,0 +1,136 @@
+How many properties we can apply for text in CSS?
+	There are six properties
+	1.Text color
+	2.Text Alignment
+	3.Text Decoration
+	4.Text Transformation
+	5.Text Spacing
+	6.Text Shadow
+--	
+What is use of text color?
+	To apply color for text.
+--	
+Syntax
+	color: name;
+Example
+	color: yellow;
+--	
+How to apply background color to text along with text color?
+	By using both the background-color property and clor property.
+Syntax
+	background-color: value;
+	color: value;
+Example
+	background-color: gray;
+	color: pink;
+--	
+What is text alignment?
+	Text Alignment is used for formatting the text. It is used for only horizontal formatting.
+--
+Types of text alignment properties:
+	1.text-align: To set the horizontal alignment of the text.
+		Syntax
+			text-align: value;
+		Example
+			text-align: center;
+	2.text-align-last: To align last line text. 
+		Syntax
+			text-align-last: value;
+		Example
+			text-align-last: justify;
+	3.direction:
+	4.unicode:
+		Both the direction and the unicode-bidi properties are used to change the text direction of an element.
+		Syntax
+			direction: value
+			unicode-bidi: value;
+		Example
+			direction: rtl;
+			unicode-bidi: bidi-override;
+	5.vertical_align: To set the vertical alignment of an element.
+		Syntax
+			vertical-align: value;
+		Example
+			vertical-align: baseline;
+--
+How many properties we have in text decoration?
+	There are five properties
+	1.text-decoration-line: To add a decoration line.
+		Syntax
+			text-decoration-line: value;
+		Example
+			text-decoration-line: underline;
+	2.text-decoration-color: To set the color of the decoration line.
+		Syntax
+			text-decoration-color: value;
+		Example
+			text-decoration-color: violet;
+	3.text-decoration-style: To set the style of the decoration line.
+		Syntax
+			text-decoration-style: value;
+		Example
+			text-decoration-style: dotted;
+	4.text-decoration-thickness: To set the thickness of the decoration line.
+		Syntax
+			text-decoration-thickness: value;
+		Example
+			text-decoration-thickness: 5px;
+	5.text-decoration: It is a shorthand property for text-decoration-line(required), text-decoration-color(optional), text-decoration-style(optional) and text-decoration-thickness(optional).
+		Syntax
+			text-decoration: line color style thickness;
+		Example
+			text-decoration: underline blue solid 5px;
+--			
+what is text transformation?
+	It is used to turn everything into uppercase or lowercase letters or capitalize the first letter of each word.
+	Syntax
+		text-transform: value;
+	Example
+		text-transform: lowercase;
+--		
+How many properties we have in text spacing?
+	There are five properties
+	1.text-indent: To specify the indentation of the first line of a text.
+		Syntax
+			text-indent: value;
+		Example
+			text-indent: 25px;
+	2.letter-spacing: To specify the space between the characters in a text.
+		Syntax
+			letter-spacing: value;
+		Example
+			letter-spacing: 5px;
+	3.line-height: To specify the space between lines.
+		Syntax
+			line-height: value;
+		Example
+			line-height: 1.5;
+	4.word-spacing: To specify the space between the words in a text.
+		Syntax
+			word-spacing: value;
+		Example
+			word-spacing: 7px;
+	5.white-space: To specifies how white-space is handled inside an element.
+		Syntax
+			white-space: value;
+		Example
+			white-space: nowrap;
+--			
+What is text shadow?
+	Adds shadow to text. It specify the horizontal shadow and the vertical shadow.
+	Syntax
+		text-shadow: horizontal vertical;
+	Example
+		text-shadow: 3px 3px;
+
+	Add a color to the shadow.
+	Syntax
+		text-shadow: horizontal vertical color;
+	Example
+		text-shadow:2px 2px green;
+
+	Add a blur effect to the shadow.
+	Syntax
+		text-shadow: horizontal vertical blureffect color;
+	Example
+		text-shadow:2px 2px 4px green;

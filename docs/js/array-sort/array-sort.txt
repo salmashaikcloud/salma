@@ -1,0 +1,50 @@
+What is sort?
+	The sort() method sorts an array alphabetically.(ascending order)
+	let employees = ["Salma", "Durga", "Sushma", "Azhar"];
+	employees.sort();
+--
+What is reverse?
+	The reverse() method reverse the elements in an array.
+	let employees = ["Salma", "Durga", "Sushma", "Azhar"];
+	employees.reverse();
+Note: By combining sort() and reverse() we can sort an array in descending order.
+--
+What is Numeric Sort?
+	By default, the sort() function sorts values as strings.
+	This works well for strings.
+	The sort method will produce incorrect result when sorting numbers.
+	Fix this by providing a compare function.
+Example:
+	let numbers = [54, 68, 55, 15, 44, 4];
+	numbers.sort(function(a, b){return a - b});
+Same trick uses to sort an array descending order.
+Example:
+	let numbers = [54, 68, 55, 15, 44, 4];
+	numbers.sort(function(a, b){return b - a});
+--
+Sorting an Array in Random Order:
+Example:
+	let numbers = [54, 68, 55, 15, 44, 4];
+	numbers.sort(function(){return 0.5 - Math.random()});
+--
+How to find the Lowest or Highest Array Value?
+	There are no built-in functions for finding the max or min value in an array.
+	However, after you have sorted an array, you can use the index to obtain the 
+	highest and lowest values.
+	Ascending Sort:
+		array[0] contains the lowest value
+		array[length-1] contains the highest value
+	Descending Sort:
+		array[0] contains the highest value
+		array[length-1] contains the lowest value
+--
+Using Math.max() on an Array:
+	You can use Math.max.apply to find the highest number in an array.
+Syntax:
+	Math.max.apply(null, array);
+--
+Using Math.min() on an Array:
+	You can use Math.min.apply to find the lowest number in an array.
+Syntax:
+	Math.min.apply(null, array);
+--

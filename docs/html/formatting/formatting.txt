@@ -1,0 +1,87 @@
+HTML Formatting Elements
+	Formatting Elements were designed to display special types of text.
+	<b>-Bold Text
+	<strong>-Important Text
+	<i>-Italic Text
+	<em>-Emphasized Text
+	<mark>-Marked Text
+	<small>-Smaller Text
+	<del>-Deleted Text
+	<ins>-Inserted Text
+	<sub>-Subscripted Text
+	<sup>-Superscripted Text
+--
+HTML <b> and <strong> Elements
+	The HTML <b> elements defines bold text, without any extra importance.
+	Example:
+		<p><b>This is a bold text.</b></p>
+	--
+	The HTML <strong> elements defines text with strong importance.
+	The content inside is typically displayed in bold.
+	Example:
+		<p><strong>This text is important!</strong></p>
+--
+The HTML <i> and <em> Elements
+	The HTML <i> element defines a part of text in alternative voice mood. The
+	content inside is typically displayed in italic.
+	Example:
+		<p><i>This text is italic.</i></p>
+	--
+	The <em> element defines the text in emphasized, the content inside the 
+	text is typically displayed in italic.
+	Example:
+		<p><em>This is emphasized.</em></p>
+--
+The HTML <small> and <mark> Elements
+	The HTML <small> element defines the smaller text.
+	Example:
+		<p><small>This text is some smaller.</small></p>
+	--
+	The HTML <mark> element defines the text is marked or highlighted.
+	Example:
+		<p>This is a <mark>Text</mark></p>
+--
+HTML <del> and <ins> Elements
+	The HTML <del> element defines the text has been deleted from the document,
+	and the browser will strike a line through deleted text.
+	Example:
+		<p>This text is <del>deleted</del></p>
+	--
+	The HTML <ins> element defines the text has been inserted in the document,
+	and the browser will underline inserted text.
+	Example:
+		<p>This text is <ins>inserted</ins></p>
+--
+HTML <sub> and <sup> Elements
+	The HTML <sub> elements defines subscripted text. The subscripted text
+	appears half a character below the normal line.
+	Sometimes it is in a small font.
+	Example:
+		<p>This text is <sub>subscripted</sub></p>
+	--
+	The HTML <sup> elements defines superscripted text. The superscripted text 
+	appears half a character above the normal line.
+	Example:
+	<p> This text is <sup>superscripted</sup></p>
+--
+=======
+
+What is HTML Formatting?
+	HTML Formatting is a process of formatting text for better look and feel.
+--
+What are the HTML Formatting Elements?
+	<b>			-Bold text
+	<strong> 	-Important text(bold)
+	<i> 		-Italic text
+	<em>		-Emphasized text(italic)
+	<mark>		-Marked text(highlighted)
+	<small>		-Smaller text(reduces one font size than the previous one)
+	<del>		-Deleted text(strike)
+	<ins>		-Inserted text(underline)
+	<sub>		-Subscript text
+	<sup>		-Superscript text
+	<u>			-Underlined text
+	Below tags are not supported in HTML 5.
+	<strike>	-Strike text
+	<tt>		-Monospaced font(each letter having same width)
+	<big>		-Larger Text(increases one font size than the previous one)

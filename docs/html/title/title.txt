@@ -1,0 +1,7 @@
+How to add tittle to the web application?
+    By writing the title in between the title tag in the header section.
+    The title displays in the browser tab.
+    Example:
+        <head>
+            <title>Here you can write title</title>
+        </title>

@@ -1,0 +1,61 @@
+What is String in Java?
+    Once we create a String object we can't perform any changes in the existing
+    memory location.
+    If we are trying to perform any change on existing String object, for those 
+    changes a new memory location created and changes will performed on new memory 
+    location.
+
+    This non changable behaviour is nothing but immutability of String
+--
+Example:
+    public class Employee3 {
+        public static void main(String[] args) {
+		    String firstName = new String("Salma");
+            System.out.println(firstName.hashCode());
+            firstName.concat("Shaik");
+            System.out.println(firstName.hashCode());
+	}
+}
+==
+StringBuffer:
+    Once we create a StringBuffer object we can perform any changes in the existing
+    memory location.
+    If we are trying to perform any change on existing StringBuffer object, for 
+    those changes will happen in same memory location.
+    This non changable behaviour is nothing but immutability of String
+--
+Example:
+    public class Employee1 {
+        public static void main(String[] args) {
+		    StringBuffer firstName = new StringBuffer("Salma");
+            System.out.println(firstName.hashCode());
+            firstName.append("Shaik");
+            System.out.println(firstName.hashCode());
+	    }
+    }
+==
+In Object class equals method will compare if the two objects are equal or not
+using == operator.
+In String class equals() method is overriden for value comparision also.
+means it will compare the values which are present in two objects.
+Example:
+    public class Employee2 {
+	    public static void main(String[] args) {
+		    StringBuffer firstName = new StringBuffer("Salma");
+		    StringBuffer lastName = new StringBuffer("Salma");
+		    System.out.println(firstName == lastName);//false
+		    System.out.println(firstName.equals(lastName));//false
+	    }
+    }
+In StringBuffer equals() method is overriden, if you use equals() method
+on StringBuffer objects, it will bind the equals method whic is available in 
+Object class.
+Example:
+    public class Employee2 {
+	    public static void main(String[] args) {
+		    StringBuffer firstName = new StringBuffer("Salma");
+		    StringBuffer lastName = new StringBuffer("Salma");
+		    System.out.println(firstName == lastName);//false
+		    System.out.println(firstName.equals(lastName));//false
+	    }
+    }

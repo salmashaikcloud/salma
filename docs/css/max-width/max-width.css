@@ -1,0 +1,28 @@
+.none {
+    max-width: none;
+    border: 1px solid black;
+}
+
+.length {
+    max-width: 400px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.initial {
+    max-width: initial;
+    border: 1px solid black;
+}
+
+.inherit {
+    max-width: inherit;
+    border: 1px solid black;
+}
+
+.len {
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid black;
+}

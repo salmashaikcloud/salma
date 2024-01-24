@@ -1,0 +1,19 @@
+Upload the documents from the specific source directory to the database.
+==
+The upload should happen in a regular interval may be for every 1 minute.
+==
+It has to upload the documents in ascending order in a sequential manner.
+==
+If the documents name format in source folder is like below
+	document-name-1.pdf
+	document-name-2.pdf
+	document-name-3.pdf
+	salma.pancard.pdf
+	
+
+Instead of uploading a new document, you need to upload a new revision,
+and you should not delete old revision.
+
+Whenever user is trying to download, we have to provide a option to download
+new revision by default.
+	

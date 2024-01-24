@@ -1,0 +1,36 @@
+.style {
+    border-style: double;
+}
+
+.specificStyle {
+    border-style: dashed dotted solid double;
+}
+
+.width {
+    border-style: solid;
+    border-width: 5px;
+}
+
+.specificWidth {
+    border-style: solid;
+    border-width: 3px 4px;
+}
+
+.color {
+    border-style: dashed;
+    border-color: red;
+}
+
+.specificColor {
+    border-style: solid;
+    border-color: blue green yellowgreen palevioletred;
+}
+
+.border {
+    border: 3px solid red;
+}
+
+.radius {
+    border: 1px solid blue;
+    border-radius: 5px;
+}

@@ -1,0 +1,17 @@
+What is the z-index property?
+    When elements are positioned, they can overlap other elements.
+    The z-index property specifies the stack order of an element (which element
+    should be placed in front of, or behind, the others).
+    An element can have a positive or negative stack order.
+-- 
+Syntax:
+    z-index: value;
+--
+When will element placed behind?
+    If the element have z-index value is negative then that particular element is 
+    place behind the overlap element.
+-- 
+When will element placed in front of?
+    If the element have z-index value is positive then that particular element is 
+    place in front of the overlap element.
+--

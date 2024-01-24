@@ -1,0 +1,45 @@
+What is Python?
+    Python is a popular programming language.
+    Python is a simple, general purpose, dynamic, high level, and interpreted programming language.
+    Python supports Object Oriented programming approach to develop applications.
+    It was created by Guido van Rossum, and released in 1991.
+-- 
+What can Python do?
+    Python can be used on a server to create web applications.
+    Python can be used alongside software to create workflows.
+    Python can connect to database systems. It can also read and modify files.
+    Python can be used to handle big data and perform complex mathematics.
+    Python can be used for rapid prototyping, or for production-ready software development.
+--
+Why Python?
+    Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).
+    Python has a simple syntax similar to the English language.
+    Python has syntax that allows developers to write programs with fewer lines than some other programming languages.
+    Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.
+    Python can be treated in a procedural way, an object-oriented way or a functional way.
+--
+What are Python Versions?
+    Python 1.0 
+    ...
+    Python 2.0
+    ...
+    Python 3.0
+    ...
+    Python 3.12.1 (current version)
+--
+Python Applications 
+    Web Applications
+    Desktop GUI Applications
+    Console-Based Applications
+    Software Applications
+    Scientific & Numeric Applications
+    Business Applications
+    Audio or Video-Based Applications
+    3D CAD Applications
+    Enterprise Applications
+    Image Processing Applications
+--
+FrameWorks
+Django and Pyramid framework(Use for heavy applications)
+Flask and Bottle (Micro-framework)
+Plone and Django CMS (Advance Content management)

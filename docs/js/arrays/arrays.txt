@@ -1,0 +1,92 @@
+What is an array?
+    An array is a special variable, which can hold more than one value.
+    Syntax:
+        varType arrayName = [];
+        varType arrayName = ["value1", "value2", "value3"];
+    Example:
+        let employees = [];
+        let employees = ["Steven", "Neena", "Lex", "Alexander", "David", "Valli"];
+--
+Why use Arrays?
+    If you want to group similar items, we use arrays.
+    Example:
+        let employeeArray = ["Salma", "Durga", "Sushma"];
+--
+How to create Array with empty value?
+    let employees = []; // literal method
+    let employees = new Array();
+
+    The two examples above do exactly the same.
+    There is no need to use new Array().
+    For simplicity, roadability and execution speed,
+    use the array literal method.
+--
+How to create Array with values?
+    let employeeArray = ["Salma", "Durga", "Sushma"];
+    let employeeArray = new Array("Salma", "Durga", "Sushma");
+--
+How to create an array with new Keyword?
+    const employeesArray = new Array();
+    const employeesArray = new Array("Salma", "Durga", "Sushma");
+--
+How to create an array with initial index?
+    const employees = new Array(4);
+    useCase
+    If you want to create an array with initial index and empty values [undefined]
+--
+How to get the values from array?
+    By using the index
+    let employeeArray = ["Salma", "Durga", "Sushma"];
+    Syntax:
+        varType varName = arrayName[index];
+    Example:
+        let emp1 = employeeArray[0];
+        let emp2 = employeeArray[1];
+--
+How to update the values into array?
+    By using the index
+    let employeeArray = ["Salma", "Durga", "Sushma"];
+    Syntax:
+        arrayName[index] = value;
+    Example:
+        employeeArray[0] = "Salma";
+        employeeArray[1] = "Durga";
+--
+How to find the array length?
+    By using the length property, we can find the array length.
+    Example:
+        let employeeArray = ["Salma", "Durga", "Sushma"];
+        let length = employeeArray.length;
+--
+How to access first element?
+    By using index 0.
+    Syntax:
+        let firstElement = arrayName[0];
+    Example:
+        let emp1 = employeeArray[0];
+--
+How to access last element?
+    By using (length - 1).
+    Syntax:
+        let firstElement = arrayName[length - 1];
+    Example:
+        let emp1 = employeeArray[length - 1];
+--
+How to access/iterate all elements from array?
+    By using for loops
+    Example:
+    //TODO refer the loops topics
+-- 
+What is the Difference Between Arrays and Objects?
+    Arrays use numbered indexes, Objects uses named indexes.
+--
+When to use Arrays. When to use Objects?
+    Arrays for grouping the values,
+    Objects for grouping values in the format of property and value pair.
+--
+How to print specifically the given object is array or object?
+    by using isArray() method.
+--
+What is the difference between typeof and instanceof operator?
+	typeof operator will print datatype
+	instanceof operator will return true or false by checking the given object with specified Object Type. 

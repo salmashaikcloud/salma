@@ -1,0 +1,35 @@
+/*Element selector*/
+p {
+    color: red;
+}
+
+h1 {
+    color: red;
+}
+
+#para2 {
+    color: green;
+    font-weight: bold;
+    text-align: right;
+}
+
+.para2 {
+    color: blue;
+}
+
+#para3 {
+    color: pink;
+}
+
+#head3 {
+    color: pink;
+}
+
+.class-1 {
+    color: darkcyan;
+}
+
+/*Universal selector - All elements*/
+* {
+    text-align: center;
+}

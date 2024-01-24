@@ -1,0 +1,27 @@
+What is margin?
+	The space around an element and outside of border.
+--
+How can we specify margin in shothand?
+	We can specify all individual properties using single margin property.
+Syntax
+	Margin: top right bottom left;
+Example
+	Margin: 10px 20px 30px 40px;
+--
+How can we specify margin in individual sides?
+	We can specify the margin for each side of an element following by the properties.
+		margin-top
+		margin-right
+		margin-bottom
+		margin-left
+--
+What are the different property values in margins?
+	auto	-The browser itself caluculates the margin.
+	length	-It specifies the margin in px, pt, cm etc.
+	%		-It specifies the in % of the width of an element.
+	inherit	-It specifies that the margin is inherited from the parent.
+	Tip: Negative values are allowed.
+--
+What is margin-collapse property?
+	Top and bottom margins of elements are sometimes collapsed into a margin that is equal
+	to the largest of the two margins.

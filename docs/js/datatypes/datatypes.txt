@@ -1,0 +1,89 @@
+What are Data Types?
+    Javascript variables can hold different datatypes such as
+        undefined
+        number
+        bigint
+        string
+        boolean
+        arrays(object type only)
+        object
+        and many more....
+---
+number
+    Range
+        [+(253-1) to (-253-1)]
+        900719925470991 to -900719925470991 (accurate up to 15digits)
+    Syntax:
+        variable_type variable_name = number;
+    Example:
+        let n1 = 1234;
+--
+bigint
+    Range
+        []
+    Syntax:
+        variable_type variable_name = number+n;
+    Example:
+        let n1 = 4515487845454874512n;
+--
+String
+    Syntax:
+        variable_type variable_name = "number+n";
+    Example:
+        let n1 = "4865454877845116648787878787_no_length_limit";
+--
+What is the concept of Data Types?
+    In programming, datatypes are important concept.
+    To be able to operate on variables, it is important to know something about
+    the type.
+    Without datatypes, it is different for the computer to solve.
+--
+Is Javascript types are dynamic?
+    Yes, Javascript types are dynamic this means that the same variable can be 
+    used to hold different datatypes.
+--
+What are JavaScript Strings?
+    A string or a text string is a series of characters can be written within 
+    Single or double qoutes.
+    If you want the text in Single quote, use double quotes.
+    If you want the text in double quote, use Single quotes.
+--
+What are JavaScript Numbers?
+    JavaScript has only one type of numbers.
+    Numbers can be written with or without decimals.
+--
+What are JavaScript Booleans?
+    Booleans can only have two values : true or false.
+    Booleans  are often used in conditional testing.
+--
+What are JavaScript Arrays?
+    JavaScript Arrays are written in sqaure brackets and the arrey items are
+    separated by comma.
+--
+What are JavaScript Objects?
+    JavaScript objects are written in curely braces.
+    Properties are written as name : value pairs and separated by comma.
+--
+What are Empty Values?
+    An Empty value has nothing to do with undefined.
+    An Empty string has both a legal value and a type.
+--
+What is undefined?
+    undefined is a special value and special type of its own.
+    If a variable is declared, but not defined /assigned.
+    then its value is undefined and its datatype is also undefined.
+    undefined is a default/initial value for undefined/unassigned variable.
+    undefined means "value is not defined/assigned".
+    Syntax:
+        variable_type variable_name;
+    Example
+        let firstName;
+--
+What is null?
+    null is a special value and its datatype is object.
+    null means "not a refference to the value".
+    null means "empty" or "unknown" value.
+    Syntax:
+        variable_type variable_name = null;
+    Example:
+        let firstName = null;S

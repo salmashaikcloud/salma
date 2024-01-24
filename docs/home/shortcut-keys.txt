@@ -1,0 +1,3 @@
+create new folder	=	ctrl + shift + n
+new text file		=	alt + f + w + text
+switching between screens	=	alt + tab

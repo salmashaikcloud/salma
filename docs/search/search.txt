@@ -1,0 +1,34 @@
+ElasticSearch
+
+Apache Lucene:
+Apache Lucene is a full-text search engine which can be used 
+from various programming languages.
+
+How to setup Maven?
+Two types
+1. lucene-core
+2. lucence-queryparser
+--
+Core Concepts
+1. Indexing	- Simply put, Lucene uses an “inverted indexing” 
+	of data – instead of mapping pages to keywords, it maps 
+	keywords to pages just like a glossary at the end of any book.
+
+2. Documents -  a document is a collection of fields, and 
+	each field has a value associated with it.
+	
+3. Fields - Documents can have field data, where a field is typically a key holding a data value:
+
+title: Goodness of Tea
+body: Discussing goodness of drinking herbal tea...
+Copy
+Notice that here title and body are fields and could be searched for together or individually.
+
+4. Analysis
+An analysis is converting the given text into smaller and precise units for easy the sake of searching.
+
+The text goes through various operations of extracting keywords, removing common words and punctuations, changing words to lower case, etc.
+
+StandardAnalyzer – analyses based on basic grammar, removes stop words like “a”, “an” etc. Also converts in lowercase
+SimpleAnalyzer – breaks the text based on no-letter character and converts in lowercase
+WhiteSpaceAnalyzer – breaks the text based on white spaces

@@ -1,0 +1,20 @@
+What is clear property?
+    It is used to avoid elements after the floating elements which flow around it.
+    or
+    It is used to push the elements below left and right floated elements.
+--
+Syntax:
+    clear: value;
+--
+What are the clear property values?
+    none
+        -This is default value.
+        -the elements is not pushed below left or right floated elements.
+    left
+        -The elements is pused below left floated elements.
+    right
+        -The elements pushed below right floated elements.
+    both
+        -The element pushed below both left and right floated elements.
+    inherit
+        -The element inherits the clear value from its parent.

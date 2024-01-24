@@ -1,0 +1,27 @@
+How many properties we can apply for font in CSS?
+	There are eight font properties in CSS.
+	1.Font Family
+	2.Font Web Safe-Universally installed across all browsers and devices.
+	3.Font Fallbacks
+	4.Font Style
+	5.Font Size
+	6.Font Google
+	7.Font Pairings
+	8.Font Shorthand
+--
+How many grneric font families we can apply in CSS?
+	There are five generic font families in CSS.
+	1.Serif: Have a small stroke at the edges of each letter.
+	2.Sans-serif: Have clean line.
+	3.Monospace: All the letters have the same fixed width.
+	4.Cursive: Imitate human handwriting.
+	5.Fantasy: Decorative/playful fonts.
+Syntax
+	font-family: font name, generic font family;
+Example:
+	font-family: "Lucida Console", monospace;
+--
+Note: If the font name is more than one word, it must be in quotation marks.
+For Example: "Lucida Console".
+--
+What is 

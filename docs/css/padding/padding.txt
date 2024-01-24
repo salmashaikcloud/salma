@@ -1,0 +1,26 @@
+What is padding?
+	The space around an element, inside of border.
+--
+How can we specify padding in shothand?
+	By using padding property.
+Syntax
+	padding: top right bottom left;
+Example
+	padding: 10px 20px 30px 40px;
+--
+How can we specify padding for individual sides?
+	We can specify the padding for each side of an element following by the properties.
+		padding-top
+		padding-right
+		padding-bottom
+		padding-right
+--
+What are the different values for property?
+	length	-It specifies a padding in px, pt, cm etc.
+	%		-It specifies the padding in % of the width of an element.
+	inherit	-It specifies that the padding is inherited from the parent element.
+	Tip: Negative values are allowed.
+--
+Define Padding and Width Element?
+	The CSS width property specifies the width of an element content area.
+	The content area is the portion inside the padding, border and margin

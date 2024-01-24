@@ -1,0 +1,52 @@
+What is display property?
+    display property is the most important CSS property for controlling layout.
+    It specifies how an element is displayed.
+    Every element has a default display value according to what type of element it is.
+--
+What is the default display property value of an elements?
+    for inline level elements   -   inline
+    for block level elements    -   block
+--
+Syntax:
+    display: value;
+--
+How to change inline element to block-level element?
+    display: block;
+How to change block level element to inline element?
+    display: inline;
+--
+Note:
+    If there is specific requirement is demanding us to change element default 
+    display value, then only change it. Otherwise do not change its default behaviour.
+--
+What are the display property values?
+    There are several values for display property:
+    1. block
+        Displays an element as a block element
+    --
+    2. inline
+        Displays an element as a block element
+    -- 
+    3. inline-block
+        Displays an element as an inline-level block container.
+        The element it self is formatted as an inline element.
+        but you can apply height and width values.
+        --
+        It combines characteristics of both inline and block values.
+        It do not create new lines.
+        It takes up only the required width of the element, but adds the
+        top and bottom margin(for requrired width of the element) as block level elements.
+    --
+    4. none
+        The element is comletely removed, won't occupy space.
+    --
+    5. initial
+        Sets this property to its default value.
+    --
+    6. inherit
+        Inherits this property from its parent element.
+--
+What is the difference between display:none and visibility:hidden?
+    display: none               : hide + won't occupy space
+    visibility: hidden          : hide + but occupy space
+--

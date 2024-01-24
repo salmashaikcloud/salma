@@ -1,0 +1,22 @@
+Python Basic Syntax 
+    There is no use of curly braces or semicolon in Python programming language.
+    It is English-like language. But Python uses the indentation to define a block of code. 
+    Indentation is nothing but adding whitespace before the statement when it is needed.
+Syntax:
+    def func():  
+       statement 1  
+       statement 2  
+       …………………  
+       …………………  
+         statement N 
+Note:
+    Instead of Semicolon as used in other languages, Python ends its statements with 
+    a NewLine character.
+--
+Python Indentation
+    Indentation refers to the spaces at the beginning of a code line.
+    Generally, we can use four whitespaces to define indentation.
+    Where in other programming languages the indentation in code is for readability only, 
+    the indentation in Python is very important.
+    Python uses indentation to indicate a block of code.
+    Python will give an error if you skip the indentation.

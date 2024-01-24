@@ -1,0 +1,12 @@
+Topics					covered		practice	interview
+home					yes			yes			yes
+introduction			yes			yes			yes
+syntax					yes			yes			yes
+selectors				yes			yes			yes
+howto					yes			yes			yes
+comments				yes			yes			yes
+colors					yes			yes			yes
+==
+display
+max-width
+position

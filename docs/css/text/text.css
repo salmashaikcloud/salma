@@ -1,0 +1,84 @@
+.tc {
+	color: yellow;
+}
+
+.bc {
+	background-color: gray;
+	color: pink;
+}
+
+.ta {
+	text-align: center;
+}
+
+.tal {
+	text-align-last: justify;
+}
+
+.tdu {
+	direction: rtl;
+	unicode-bidi: bidi-override;
+}
+
+.va {
+	vertical-align: sub;
+}
+
+.tdl {
+	text-decoration-line: underline;
+}
+
+.tdc {
+	text-decoration-line: underline;
+	text-decoration-color: violet;
+}
+
+.tds {
+	text-decoration-line: overline;
+	text-decoration-style: dotted;
+}
+
+.tdt {
+	text-decoration-line: underline;
+	text-decoration-thickness: 10px;
+}
+
+.td {
+	text-decoration: underline blue dashed 5px;
+}
+
+.tt {
+	text-transform: uppercase;
+}
+
+.ti {
+	text-indent: 30px;
+}
+
+.ls {
+	letter-spacing: 4px;
+}
+
+.lh {
+	line-height: 1.2;
+}
+
+.ws {
+	word-spacing: 3px;
+}
+
+#ws {
+	white-space: nowrap;
+}
+
+.ts {
+	text-shadow: 3px 3px;
+}
+
+.tsc {
+	text-shadow: 2px 2px green;
+}
+
+.tse {
+	text-shadow: 4px 3px 5px pink;
+}

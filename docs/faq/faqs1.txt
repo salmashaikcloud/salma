@@ -1,0 +1,10 @@
+What is the difference between web application and 
+enterprise application?
+Is all enterprise applications are web application?
+	Yes
+Is all web applications are enterprise applications?
+	No
+Standalone application
+Integration Developmet Environment - IDE
+Difference between relational and Non-Relational DataBase
+Management System?0

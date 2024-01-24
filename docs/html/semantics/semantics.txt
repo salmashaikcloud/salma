@@ -1,0 +1,39 @@
+What are the semantic elements?
+    Sematric elements = elements with meaning.
+    semantic elements clearly describes its meaning to both the browser
+    and the developer.
+    Below are the semantics elements:
+        <header>
+            -It represents a container for introductory content .
+            -But sometimes it is used to set of navigation links
+        <nav>
+            -It defines a set of navigation links.
+        <main>
+            -It specifies the content of a document.
+        <section>
+            -It defines section in a document.
+        <article>
+            -It specifies independent, self-contained content.
+        <aside>
+            -It defines content aside from the page content or document.
+        <footer>
+            -It defines footer for a document.
+        <details> 
+            -It defines additional details that the user can view or hide.
+        <summary>
+            -It defines a visible heading for a <details> element.
+        <figure>
+            -It uses to add a photo in a document.
+        <figcaption>
+            -It define a caption for a <figure> element.
+        <mark>
+            -Reffer it from '/html/formating/formating.txt'
+--
+What are the non-sementrics elements?
+    Other than the sementrics elements all are non- sementric elements.
+    Example:
+        <div>, <p> and etc...,
+--
+What is the difference between semantic and non-semantic elements?
+    Instead of semantic elements all elements are non-semantic.
+    

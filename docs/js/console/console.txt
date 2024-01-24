@@ -1,0 +1,18 @@
+What are the functions/ logging functions are available in javascript?
+Can you specifies the order of logging methods?
+
+error()
+    it will print the error message in the console window.
+    As developer, it is our responsibility to fix the errors in the code.
+warn()
+    It will print the warning message in the console window.
+    It may be error message in the future, after fixing all errors, we have 
+    to fit warnings also.
+debug()
+
+info()
+log()
+trace()
+    to know themethod entry and method exit we will use trace method.
+    By using this method, a developer came to what methods are executed
+    successfully, what methods are terminated ob-normally.

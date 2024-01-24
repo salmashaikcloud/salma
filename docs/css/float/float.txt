@@ -1,0 +1,16 @@
+What is float property?
+    float property specifies how an element should float.
+    It is used to push an element to the left or right.
+--
+What are the float property values?
+    left
+        The element floats to the left of its container.
+    right
+        The element floats to the right of its container.
+    none 
+        This is default.
+        The element does not float.
+    inherit
+        The element inherits the float value of its parent.
+
+Where we will use the float property mostly?

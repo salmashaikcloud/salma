@@ -1,0 +1,111 @@
+What are selectors?
+    Selectors are used to select the html element you want to style.
+--
+How many types of selectors are there in CSS?
+    There are five types of selector
+        Simple selector
+        Combinator selector
+        pseudo element selector
+        pseudo class selector
+        attribute selector
+--
+How many types of simple selectors are there in CSS?
+    Element 
+    Id
+    class
+--
+What is element selector?
+    The element selector select the element based on the element name.
+    Syntax:
+        element {
+            property : value;
+            property : value;
+            etc...,
+        }
+    Example:
+        p {
+            text-align: center;
+            color: blue;
+            font-size: 24px;
+        }
+    Here all <p> elements on the page will be centerd alligned, with a blue text
+	color.
+--
+What is an id selector?
+    The id selector is uses the id attribute of the html element to select the
+    specific element.
+    The id of an element is unique with in a page, so that the id selector is
+    used to select one unique element.
+    To select an element with a specific id, write a hash(#) character,
+    followed by the id of the element.
+    Syntax:
+        #id {
+            property : value;
+            property : value;
+            etc...,
+        }
+    Example:
+        #firstname {
+            text-align: center;
+            color: red;
+        }
+Note: An id name cannot start with a number.
+--
+What is class selector?
+    The class selector select html element by using class attribute.
+    To select elements with a specific class write period(.) character,
+    followed by the class name.
+    Syntax:
+        .class-name {
+            property : value;
+            property : value;
+            etc...,
+        }
+    Example:
+        .center {
+            text-align: center;
+            color: red;
+        }
+--
+What is universal selector?
+    Universal selector(*) select all html elements with in the application.
+    Syntax:
+        * {
+            property : value;
+            property : value;
+            etc...,
+        }
+    Example:
+        * {
+            text-align: center;
+            color: red;
+        }
+==
+What is grouping selector?
+	The grouping selector will selects all the html elements with the same style.
+		h1 {
+            text-align: center;
+            color: red;
+        }
+		h2 {
+            text-align: center;
+            color: red;
+        }
+		p {
+            text-align: center;
+            color: red;
+        }
+--
+By Writing program like above is long process, so by using grouping selector 
+code should me minimized.
+	Syntax:
+		element1, element2, element3 {
+			property: value;
+			property: value;
+		}
+	Example:
+		h1, h2, p {
+            text-align: center;
+            color: red;
+        }
+--

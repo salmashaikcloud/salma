@@ -1,0 +1,26 @@
+What is overflow property?
+    It specifies how to handle the content when it overflows its 
+    block level container.
+--
+Syntax:
+    overflow: value;
+--
+What are the overflow property values?
+    visible
+        -It is an default value.
+        -By default, the overflow is visible.
+        -The overflow is not clipped and it renders outside the element's box.
+    hidden
+        -The overflow is clipped, and the rest of the content is hidden.
+    scroll
+        -The overflow is clipped and a scrollbar is added to scroll inside the box.
+        -This will add a scrollbar both horizontally and vertially.
+        -Even if you do not need it.
+    auto
+        -The  auto value is similar to scroll.
+        -But it adds scrollbars only when necessary.
+    inherit
+        -It inherits the property from its parent element.
+    initial
+        -It is used to set the property value to its initial value.
+--

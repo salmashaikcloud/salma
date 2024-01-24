@@ -1,0 +1,22 @@
+What is max-width property?
+    The max-width property in CSS is used to set the maximum width of the elements content box.
+--
+Syntax:
+    max-width: value;
+--
+What are the max-width property values.
+    none
+        This is the default value that does not limit the width of the content box.
+    length
+        This value defines the length of max-width in px, cm, pt, etc...,
+        Always use px and %.
+    initial
+        It sets the property to its default value.
+    inherit
+        It inherits the property from its element.
+--
+What is the difference between max-width and width?
+    By draging the browser window to smaller than the given length then 
+    width property fixed width length, but max-width property decreases its actual
+    length and adjusted by browser window.
+--

@@ -1,0 +1,39 @@
+.fleft {
+    float: left;
+    border: 1px solid blue;
+    width: 100px;
+    height: 70px;
+}
+
+.none {
+    clear: none;
+    border: 1px solid red;
+    height: 100px
+}
+
+.left {
+    clear: left;
+    border: 1px solid red;
+}
+
+.fright {
+    float: right;
+    border: 1px solid blue;
+    width: 100px;
+    height: 50px;
+}
+
+.right {
+    clear: right;
+    border: 1px solid red;
+}
+
+.both {
+    clear: both;
+    border: 1px solid red;
+}
+
+.inherit {
+    clear: inherit;
+    border: 1px solid red;
+}

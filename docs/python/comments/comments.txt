@@ -1,0 +1,15 @@
+Python Comments
+    Comments can be used to explain Python code.
+    Comments can be used to make the code more readable.
+    Comments can be used to prevent execution when testing code.
+    Python will ignore Commented code.
+--
+Types of Comments
+    There are two types of Comments
+    1. Single line comment 
+        #
+    2. Multi line comment
+        """
+
+        """
+--

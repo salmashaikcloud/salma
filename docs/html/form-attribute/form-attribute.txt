@@ -1,0 +1,19 @@
+Form attribute
+    autocomplete
+    method
+        get
+        post
+    name
+    novaldate
+    rel
+    target
+    accept-charset
+    action
+    enctype
+
+What is accept attribute?
+What is target attribute?
+What os method attribute?
+What is GET method?
+What is POST method?
+What is autocomplete attribule?

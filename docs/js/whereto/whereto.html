@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>WhereTo</title>
+</head>
+
+<body>
+    <h2 style="text-align: center;">Where To</h2>
+    <h2 id="head1">Inline JS</h2>
+    <button onclick='document.getElementById("head1").innerHTML = 
+	"This is Inline JS"'>Inline JS</button>
+    <h2 id="head2">Internal JS</h2>
+    <button onclick="internalJs();">
+        Internal JS
+    </button>
+    <script>
+        function internalJs() {
+            document.getElementById("head2").innerHTML = "This is Internal JS";
+        }
+    </script>
+
+<h2 id="head3">External JS</h2>
+<button onclick="externalJs();">
+    External JS
+</button>
+<script src="whereto.js"></script>
+
+</body>
+
+</html>
+<!--
+    Action is performed by the user.
+    Event will be triggered.
+    Subsequent javascript logic/function will be executed.
+-->

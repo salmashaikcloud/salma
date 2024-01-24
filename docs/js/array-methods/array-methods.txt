@@ -1,0 +1,89 @@
+How to convert array to string?
+    toString() method converts an array to a string of comma separated array 
+    values.
+    let employees = ["Salma", "Durga", "Sushma"];
+    let employees = employees.toString();
+--
+How to convert array to string with specific separator
+    The join() method also joins all array elements into a string
+    It behaves just like toString(), but in addition you can specify the 
+    separator,
+    let employees = ["Salma", "Durga", "Sushma"];
+    let employees = employees.join("*");
+--
+What is pop?
+    The pop() method removes the last element from an array.
+    let employees = ["Salma", "Durga", "Sushma"];
+    employees.pop();
+--
+What is push?
+    The push() method adds a new element to an array at the end.
+    let employees = ["Salma", "Durga", "Sushma"];
+    employees.push("Reshma");
+--
+What is shift()?
+    The shift() method removes the first element and "shifts" all other
+    elements to a lower index.
+    let employees = ["Salma", "Durga", "Sushma"];
+    employees.shift();
+--
+What is unshift()?
+    The unshift() method adds a new element to an array at the beginning and 
+    "unshifts" older element to a higher index.
+    const employees = ["Salma", "Durga", "Sushma"];
+    let employees = employees.unshift("Reshma");
+--
+How to find array length?
+    The length property provides an easy way to append a new element to an array.
+    const employees = ["Salma", "Durga", "Sushma"];
+    console.log(employees.length);
+--
+How to delete element from array from a specified position?
+    We can delete an element from the specified position using delete() method.
+    delete method leaves an undefined hole in array.
+--
+What is splice method?
+    add/update/delete element/elements any position.
+Syntax:
+    splice(n1, n2, element1, element2, element3, ..., elementn);
+    First parameter defines the position where you want to add
+    Second parameter defines how many elements that you want to remove 
+    the rest parameters defines new elements.
+Example:
+    employees.splice(3,0,"Salma")
+--
+What is slice?
+    Creates a new array from existing array.
+Syntax:
+    slice(start-index-included, end-index-excluded);
+Example:
+    slice(2, 4)
+--
+What is concat?
+    The concat() method creates a new array by merging (concatenating) existing arrays.
+    The concat() method can take n number of array arguments.
+Syntax:
+    array1.concat(array2, array3, ..., arrayn);
+Example:
+    employees1.concat(employees2);
+--
+What is flat?
+    The flat() method creates a new array with sub-array elements concatenated to 
+    a specified depth.
+Example:
+    let employees = [["Salma","Durga"],["Sushma", "Azhar"]];
+    employees.flat();
+
+What is JavaScript Array map() method?
+    The JavaScript array map() method calls the specified function for every 
+    array element and returns the new array. This method doesn't change the 
+    original array.
+Syntax:
+    array.map(callback(currentValue,index,arr),thisArg)
+Example:
+    var arr = [2,56,78,34,65];
+    var new-arr.map(function(num) {
+        return num / 2;
+    })
+    console.log(new-arr);
+--

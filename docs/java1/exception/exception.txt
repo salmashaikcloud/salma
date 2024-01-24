@@ -1,0 +1,54 @@
+Introduntion
+An unexpected unwanted event that distrubs the normal flow of the program
+execution is called exception.
+Example:
+    Our day to Day Exceptions
+    TierPumpturedException, SleepingException
+    Java Exceptions
+    FileNotFoundException, ArthemeticException, etc...
+--
+It is highly recommended to handle exceptions, and the main objective of 
+exception handling is, normal termination of the program.
+
+Exception handling doesn't mean repairing an exception, we have to provide
+alternative way to continue rest of the program normally.
+--
+Example:
+Our programming requirement is to read data from remote file locating at London
+at runtime if London file is not available our program should not be terminated
+abnormally we have to provide some local file to continue rest of the program
+normally. This way of defining alternative is nothing but exception handling.
+--
+Example:
+try {
+    read data from remote file located at London
+} catch(FileNotFoundException e) {
+    use local file and continue rest of the program normally.
+}
+==
+Default Exception handling in Java
+If any exception occured the with in the method in which it is raised, that 
+method is responsible to create execution object by including  the following
+information
+1. Name of Exception
+2. Description of exception
+3. Location of at which exception occurs. (stack trace)
+--
+2. After creating exception, method handover that object to the JVM
+3. JVM will check whether the method contains any exception handling code or
+    not.
+    If the method doesn't contain execution handling code then JVM terminates
+    that method abnormally and removes the corresponding entry from the stack.
+    then JVM identifies identifier and checks whether caller method contain any 
+    handling code or not.
+    if the caller method doesn't contain handling code terminates the
+    caller method also abnormally and removes corresponding entry from stack.
+    --
+    This process will be contained until main method and if the main() method
+    also doesn't contain handling code then JVM terminates main() method also
+    abnormally and removes corresponding entry from stack.
+--
+    Then JVM handover responsibility of execution handling to default exception
+    handler, which is the part of JVM. Default exception handler prints
+    exception information in the following format and terminates program
+    abnormally.

@@ -1,0 +1,34 @@
+What is IIFE?
+    IIFE stands for Imeediate Invoke function Execution.
+    IIFE is a JavaScript function that runs as soon as it is defined.
+    Syntax:
+        (function() {
+            // logic/code goes here....
+        })
+        ();
+--
+Usage of iife functions?
+    1. Avoid polluting the global namespace
+    2. Execute an async function
+    3. The module pattern
+    4. For loop with var before ES6
+--
+What type of logic that we have to write in life function?
+    connection logic with middleware
+    single sign on logic
+    if we want to execute some logic before body tag loading
+--
+Difference with regular function?
+    IIFE is executed immediately after it is defined.
+    Regular Function is executed when it is called by its name.
+    --
+    IIFE Syntax:
+        (function() {
+            //code goes here....
+        })
+        ();
+    Regular Function Syntax:
+        function functionName() {
+            //code goes here....
+        }
+---

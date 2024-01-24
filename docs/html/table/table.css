@@ -1,0 +1,13 @@
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid;
+}
+
+.t {
+    border: 2px solid;
+    border-collapse: separate;
+    border-radius: 5px;
+}

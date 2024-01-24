@@ -1,0 +1,76 @@
+What is the purpose of the <img> tag?
+    The <img> tag defines an image element, which displays an image on the web 
+	page.
+    HTML img tag is an empty tag that contains attributes only, and does not 
+	have a closing tag.
+--
+What are the attributes contains in <img> tag?
+    1. src
+        The src attribute specifies the path (URL) to the image.
+        If there is an typo mistake in URL or path of URL is wrong, then you 
+		will get broken image icon.
+        Syntax:
+            <img src="url">
+        Example:
+            <img src="HTML5.png">
+    --
+    2. alt
+        The alt attribute provides an alternate text for an image.
+        If there is an error in the src attribute, then browser displays the 
+		alt attribute text.
+        Syntax:
+            <img src="url" alt="alternative text>
+        Example:
+            <img src="HTml5.png" alt="This is HTML5">
+    --
+    3. width
+        The width attribute specifies the width of the image.
+        It is not recommended now. You can apply CSS in place of width 
+		attribute.
+    --
+    4. height
+        The height attribute specifies the height of the image.
+        It is not recommended now. You can apply CSS in place of heigt 
+		attribute.
+    --
+    5. style
+        The style attribute specifies the CSS properties.
+        Syntax:
+            <img src="url" alt="alternative text" style="property-name:value">
+        Example:
+            <img src="HTML5.png" alt="This is HTML5" 
+			style="width:100px; height:100px">
+--
+How to use image as a link?
+    To use an image as a link, put the <img> tag inside the <a> tag.
+    Example:
+        <a href="https://www.bigbasket.com/">
+            <img src="bigbasket.png" alt="This is bigbasket">
+        </a>
+--
+How to get image from another directory/folder?
+    To get an image from another directory/folder:
+    If the image in another folder then its starts with ../foldername/imagename.
+    or starts with https://..
+    Example:
+        <img src="../../images/img_girl.jpg" alt="A girl with jacket">
+    --
+    If the image in a sub-folder then its start with foldername/imagename.
+    Example:
+        <img src="img/icons/java-icon.png" alt="This is java">
+==
+
+Images can improve the design and the appearance of a web page.
+The <img> tag is empty, it contains attributes only, and does not have a closing tag.
+
+The <img> tag has two required attributes:
+
+src - Specifies the path to the image
+alt - Specifies an alternate text for the image
+
+Image Size - Width and Height
+width and height attributes:
+Images in Another Folder
+Images from Another Server
+Image as a Link
+To use an image as a link, put the <img> tag inside the <a> tag:

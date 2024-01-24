@@ -1,0 +1,95 @@
+What is loop?
+	To execute logic repeatedly.
+	or
+	To run the same code over and over again, each time with a different value.
+	or 
+	Loops can execute a block of code a number of times.
+--
+What are the different kinds of loops?
+	-for
+		loops through a block of code a number of times.
+	-for/in
+		loops through the properties of an object.
+	-for/of
+		loops through the values of an array.
+	-while
+		loops through a block of code if the specified condition is true.
+		If the condition is true then only executes the block of code.
+	-do/while
+		loops through a block of code if the specified condition is true.
+		It will executes the block of code at least once and checks the condition.
+--
+For 
+	Syntax:
+	for(initialization; condition ; increment/decrement) {
+		//write you code here..., may be single line or 100 lines
+		//getEmployee();
+		//it will executed multiple times based upon the condition
+	}
+	Example:
+	for (let i = 0; i < 10; i++) {
+		console.log("This is my logic i want to execute 10 times" + i);
+	}
+	const employees = ["Steven", "Neena", "Lex", "Alexander", "David", "Valli"];
+	for (let i = 0; i < employees.length; i++) {
+		console.log(employees[i]);
+	}
+	// array index = 5 length = 6;
+	// index = length - 1;
+--
+What is for In?
+	for in statements loops through the properties of an Object.
+	Syntax:
+		for (property in object) {
+			//code block to be executed
+		}
+	Example:
+		function forIn() {
+			const employee = {employeeId="101",firstName:"Salma",lastName:"Shaik"}
+			let text = "";
+			for (let property in employee) {
+				text += employee[property] + "<br>";
+			}
+			document.getElementById("employees").innerHTML = text;
+		}
+--
+What is For Of?
+	for of statement loops through the values of an iterable array.
+	Syntax:
+		for (value of iterable) {
+			// code block to be executed
+		}
+	Example:
+		function forOf() {
+			const employees = ["Steven", "Neena", "Lex"];
+			let text = "";
+			for (let employee of employees) {
+				text += employee + "<br>";
+			}
+			document.getElementById("employees").innerHTML = text;
+		}
+--
+
+
+What is for loop?
+	loops through a block of code a number of times.
+	The for statements creates a loop with 3 optional expressions:
+Syntax:
+	for (expression 1/initialization; expression 2/condition; expression 3/increment/decrement) {
+		//code block to be executed.
+	}
+	Expression 1 is executed (one time) before the execution of the code block.
+	Expression 2 defines the condition for executing the code block.
+	Expression 3 is executed(every time) after the code block has been executed.
+Example:
+	for (let i=0; i<5; i++) {
+		//write a logic
+	}
+--
+What is for in loop?
+	for in statements loops through the properties of an object.
+Syntax:
+	for (key in object) {
+		//code block to be executed
+	}
+

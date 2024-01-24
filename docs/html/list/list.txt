@@ -1,0 +1,67 @@
+HTML lists
+    Lists allows us to group a set of related items in lists.
+Unordered List 
+    Unordered list starts with <ul> tag and each list item starts with <li> tag.
+    The list items will be marked with bullets by default.
+    Here we are having some values to define the style of the list item marker
+    by using list-style-type property.
+    Example:
+        Disc
+            <ul style="list-style-type: disc">
+        Square
+            <ul style="list-style-type: square">
+        None
+            <ul style="list-style-type: none">
+        Circle
+            <ul style="list-style-type: circle">
+--
+Nested HTML List
+    Lists can be nested, it means element contains other elements.
+    Example:
+        <li>milk</li>
+        <li>tea</li>
+        <ul>
+            <li>green tea</li>
+            <li>black tea</li>
+        </ul>
+--
+Horizontal List with CSS
+    HTML lists can be styled in many different ways with CSS.
+    One popular way is to style a list Horizontally, to create a navigation 
+    menu.
+--
+Ordered list
+    Ordered list starts with <ol> tag. Each list item starts with <li> tag.
+    An ordered list can be numerical or alphabetical.
+    By default, ordered list will take numbers.
+    The type attribute of <ol> tag defines the type of the list item marker.
+--
+Ordered list types.
+    type="1": The list items will be numbered with numbers (by default).
+    type="A": The list items will be numbered with uppercase letters.
+    type="a": The list items will be numbered with lowercase letters.
+    type="I": The list items will be numbered with Roman Numbers.
+    type="i": The list items will be numbered with Roman Numbers.
+--
+Control List Counting
+By default, an ordered list will start count from 1, if you want to start
+from a specified number then use start attribute.
+Example:
+    <ol start="50">
+Nested HTML lists
+    Lists can be nested it means that list contain other lists.
+--
+Description list
+    Decsription list displays elements in defination form.
+    The <dl>, <dt>, and <dd> tags used to define description list.
+    Discription list starts with <dl> tag.
+--
+1. <dl> tag defines the description list.
+    It contains <dt> and <dd> pairs.
+2. <dt> tag defines data term.
+    It is used to define a term or concept.
+3. <dd> tag defines data defination.
+    It is used to provide a description or explanation of defination term.
+--
+Task
+    Implement the application navigation by using Unordered list.

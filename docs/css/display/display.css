@@ -1,0 +1,30 @@
+h2 {
+    text-align: center;
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.block {
+    display:block;
+}
+
+.inline-block {
+    display: inline-block;
+    height: 50px;
+    width: 150px;
+}
+
+.none {
+    display: none;
+}
+
+ul {
+    padding: 0px;
+}
+
+.inherit {
+    display: inherit;
+}

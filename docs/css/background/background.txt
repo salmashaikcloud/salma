@@ -1,0 +1,67 @@
+What is the purpose CSS backgrounds?
+    The CSS background properties are used to add background effects 
+    for elements.
+--
+What are background properties?
+    1. background-color
+    2. background-image
+    3. background-repeat
+    4. background-attachment
+    5. background-position
+    6. background (shorthand property)
+--
+What is the use of background-color property?
+    It specifies background color of an element.
+    Syntax:
+        background-color: value;
+--
+What is Opacity/Transparency?
+    The opacity property specifies the opacity/transparency of the element.
+    It can take a value from 0.0-1.0. The lower value is more transparent.
+    Syntax:
+        opacity: value;
+--
+What is the use of background-image property?
+    It specifies an image to use as the background of an element.
+    By default, the image is repeated so it covers the entire element.
+    Syntax:
+        background-image: url(image path);
+    Note:
+        When using a background image, use an image that does not disturb 
+        the text.
+--
+What is the use of background-repeat property?
+    It specifies how a background image will be repeated.
+    Syntax:
+        background-repeat: value;
+--
+What are the values of background-repeat?
+    repeat
+        -It is an default value.
+        -Its repeat the background image both horizontally and vertically.
+    no-repeat
+        -The background image is not repeated.
+        -The image will only be shown once.
+        -By default, the background image at the left side.
+    repeat-x
+        -The background image is repeated only horizontally.
+    repeat-y
+        -The background image is repeated only vertically.
+--
+What is the use of background-position property?
+    It specifies the position of the background image.
+    Syntax:
+        background-position: value;
+--
+What is the use of background-attachment property?
+    It specifies the background image is fixed or scrolls with the rest 
+    of the page.
+    Syntax:
+        background-attachment: value;
+--
+What is the use of background property?
+    It is the shorthand property.
+    It specifies all the background properties in one single property.
+    Syntax:
+        background: color image repeat position attachment;
+--
