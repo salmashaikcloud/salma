@@ -44,7 +44,7 @@ Why Oracle providing different JDKs for Different Operating Systems/platforms?
 --
 What is JRE?
     JRE stands for Java Runtime Environment, by using JRE, we will run the java 
-    applications without comiling, which are developed by using JDK.
+    applications without compiling, which are developed by using JDK.
 --
 Why Oracle providing different JREs for Different Operating Systems/Platforms?
     JRE is Platform Dependent, because of Operating Systems such as Windows,

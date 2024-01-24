@@ -1,0 +1,12 @@
+what is cross polocy issue?
+what is the difference between oracle home and oracle base?
+what is the default port for oracle?
+	1521
+can we change the oracle port number/oracle database listener?
+	yes
+What is the table and view?
+	view - logical entity
+	table - physical entity
+what is the difference between user and schema?
+what is the difference between the table and view?
+what is the difference between varchar and varchar2?

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>DMS</title>
+    <link rel="stylesheet" href="search.css">
+    <script src="search.js"></script>
+</head>
+
+<body onload="onload();">
+    <form>
+        <div>
+            <div class="infonames">Release Date</div>
+            <label for="rdf" class="f">From<sup>*</sup></label>
+            <input type="date" id="rdf" name="rdf" min="" max="" onchange="enableSubmit()" required>
+            <label for="rdt" class="f">To<sup>*</sup></label>
+            <input type="date" id="rdt" name="rdt" min="" max="" onchange="enableSubmit()" required>
+        </div>
+
+        <div>
+            <div class="infonames">Doc Source</div>
+            <select>
+                <option>Scanned</option>
+                <option>FTP</option>
+                <option>Upload</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="shipmentid" class="infonames">Shipment ID</label>
+            <select>
+                <option>Matches</option>
+                <option>Related</option>
+                <option>Starts</option>
+                <option>Ends</option>
+                <option>Substring</option>
+            </select>
+            <input type="text" id="shipmentid" name="shipmentid" class="p">
+        </div>
+
+        <div>
+            <label for="receiverbu" class="infonames">Receiver BU</label>
+            <select>
+                <option>Matches</option>
+                <option>Starts</option>
+                <option>Ends</option>
+                <option>Substring</option>
+            </select>
+            <input type="text" id="receiverbu" name="receiverbu" class="p">
+
+        </div>
+
+        <div>
+            <label for="receivingCountry" class="infonames">Receiving Country</label>
+            <input type="text" id="receivingCountry" name="receivingCountry" list="receivingCountryList"
+                class="position" onchange="multiple1();" multiple>
+            <datalist id="receivingCountryList">
+                <option value="Russia">
+                <option value="Germany">
+                <option value="United Kingdom">
+                <option value="France">
+                <option value="Italy">
+                <option value="Spain">
+                <option value="Poland">
+                <option value="Ukraine">
+                <option value="Romania">
+                <option value="Netherlands">
+                <option value="Belgium">
+                <option value="Sweden">
+                <option value="Czech Republic">
+                <option value="Greece">
+                <option value="Portugal">
+                <option value="Hungary">
+                <option value="Belarus">
+                <option value="Austria">
+            </datalist>
+        </div>
+
+        <div>
+            <label for="senderbu" class="infonames">Sender BU</label>
+            <select>
+                <option>Matches</option>
+                <option>Starts</option>
+                <option>Ends</option>
+                <option>Substring</option>
+            </select>
+            <input type="text" id="senderbu" name="senderbu" class="p">
+        </div>
+
+        <div>
+            <label for="sendingCountry" class="infonames">Sending Country</label>
+            <input type="text" id="sendingCountry" name="sendingCountry" list="sendingCountryList" class="position"
+                onchange="multiple1();" multiple>
+            <datalist id="sendingCountryList">
+                <option value="Russia">
+                <option value="Germany">
+                <option value="United Kingdom">
+                <option value="France">
+                <option value="Italy">
+                <option value="Spain">
+                <option value="Poland">
+                <option value="Ukraine">
+                <option value="Romania">
+                <option value="Netherlands">
+                <option value="Belgium">
+                <option value="Sweden">
+                <option value="Czech Republic">
+                <option value="Greece">
+                <option value="Portugal">
+                <option value="Hungary">
+                <option value="Belarus">
+                <option value="Austria">
+            </datalist>
+        </div>
+
+        <div>
+            <label for="originbu" class="infonames">Origin BU</label>
+            <select>
+                <option>Matches</option>
+                <option>Starts</option>
+                <option>Ends</option>
+                <option>Substring</option>
+            </select>
+            <input type="text" id="originbu" name="originbu" class="p">
+        </div>
+
+        <div>
+            <label for="originCountry" class="infonames">Origin Country</label>
+            <input type="text" id="originCountry" name="originCountry" list="originCountryList" class="position"
+                onchange="multiple1();">
+            <datalist id="originCountryList">
+                <option value="Russia">
+                <option value="Germany">
+                <option value="United Kingdom">
+                <option value="France">
+                <option value="Italy">
+                <option value="Spain">
+                <option value="Poland">
+                <option value="Ukraine">
+                <option value="Romania">
+                <option value="Netherlands">
+                <option value="Belgium">
+                <option value="Sweden">
+                <option value="Czech Republic">
+                <option value="Greece">
+                <option value="Portugal">
+                <option value="Hungary">
+                <option value="Belarus">
+                <option value="Austria">
+            </datalist>
+        </div>
+
+        <div>
+            <label for="destinationbu" class="infonames">Destination BU</label>
+            <select>
+                <option>Matches</option>
+                <option>Starts</option>
+                <option>Ends</option>
+                <option>Substring</option>
+            </select>
+            <input type="text" id="destinationbu" name="destinationbu" class="p">
+        </div>
+        
+        <div>
+            <label for="destinationCountry" class="infonames">Destination Country</label>
+            <input type="text" id="destinationCountry" name="destinationCountry" list="destinationCountryList"
+                class="position" onchange="multiple1();" multiple>
+            <datalist id="destinationCountryList">
+                <option value="Russia">
+                <option value="Germany">
+                <option value="United Kingdom">
+                <option value="France">
+                <option value="Italy">
+                <option value="Spain">
+                <option value="Poland">
+                <option value="Ukraine">
+                <option value="Romania">
+                <option value="Netherlands">
+                <option value="Belgium">
+                <option value="Sweden">
+                <option value="Czech Republic">
+                <option value="Greece">
+                <option value="Portugal">
+                <option value="Hungary">
+                <option value="Belarus">
+                <option value="Austria">
+            </datalist>
+        </div>
+        <!--label for="creatorbu" class="infonames">Creator BU</label>
+        <select>
+            <option>Matches</option>
+            <option>Starts</option>
+            <option>Ends</option>
+            <option>Substring</option>
+        </select>
+        <input type="text" id="creatorbu" name="creatorbu" class="p"><br>
+        <div class="infonames">EstimationArrivalDate</div>
+        <label for="eadf" class="f">From</label>
+        <input type="date" id="eadf" name="eadf" min="" max="">
+        <label for="eadt" class="f">To</label>
+        <input type="date" id="eadt" name="eadt" min="" max=""><br>
+        <div class="infonames">ActualArrivalDate</div>
+        <label for="aadf" class="f">From</label>
+        <input type="date" id="aadf" name="aadf" min="" max="">
+        <label for="aadt" class="f">To</label>
+        <input type="date" id="aadt" name="aadt" min="" max=""><br-->
+        <button type="search" id="search">Search</button>
+        <input type="reset" value="Reset" id="reset">
+    </form>
+</body>
+
+</html>

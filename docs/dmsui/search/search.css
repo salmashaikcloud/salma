@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.infonames {
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+}
+
+.p {
+    display: inline-block;
+    width: 200px;
+}
+
+.f {
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+
+.position {
+    position: relative;
+    left: 84px;
+    width: 200px;
+}
+
+div {
+    margin: 3px 0px;
+}

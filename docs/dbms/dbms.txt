@@ -1,0 +1,27 @@
+What is dbms?
+	Database management system is software that is used to manage the database.
+--
+What is database?
+	The database is a collection of inter-related data which is used to 
+	retrieve, insert and delete the data efficiently. 
+	A database is an organized collection of data, so that it can be easily 
+	accessed and managed.
+	It is also used to organize the data in the form of a table, schema, views, 
+	and reports, etc.
+--
+What are the types of databases?
+	1. Centralized Database
+	2. Distributed Database
+	3. NoSQL Database
+	4. Cloud Database
+	5. Relational Database
+	6. Network Database
+	7. Object-oriented Database
+	8. Hierarchical Database
+--
+What is RDBMS?
+	RDBMS stands for Relational Database Management System.
+	Data is represented in terms of tuples (rows) in RDBMS.
+	Due to a collection of an organized set of tables, data can be accessed 
+	easily in RDBMS.
+--

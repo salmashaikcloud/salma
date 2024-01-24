@@ -136,7 +136,10 @@ Step 2: Delete the registries of oracle database 11g
         Press 'O'. Delete all folders prefixed by 'oracle'.
         HKEY_LOCAL_MACHINE -> SOFTWARE
         Delete oracle folder.
-        Restart your system.
+        
 Step 3: Delete Oracle Home.
         Delete App folder from C drive
         Delete Oracle folder from programming files
+        Clear temp folder
+        Delete oracle files from AppData -> Roaming
+        Restart your system.

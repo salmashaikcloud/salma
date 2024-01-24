@@ -1,0 +1,80 @@
+What is datatype?
+    Data types are used to represent the nature of the data that can be stored 
+    in the database table.
+--
+What are the types of database?
+    Character datatype
+    Number datatype
+    Date datatype
+    Binary datatype
+--
+What is Character datatype?
+    There are different types of Character datatype.
+    1. CHAR(size): Fixed-length character data of length size bytes per row.
+        default size: 1 byte
+        maximum size: 2000bytes
+    --
+    2. VARCHAR2(size): Variable-length character data per row.
+        default size: 1 byte
+        maximum size: 4000bytes
+    --
+    3. NCHAR(size): Fixed-length character data of length size characters
+        or bytes, depending on the national character set.
+        default size: 1 character or 1 byte
+        maximum size: 2000bytes
+    --
+    4. NVARCHAR(size): Variable-length character data of length size characters
+        or bytes, depending on the national character set. A maximum size must 
+        be specified.
+        default size: 1 character or 1 byte
+        maximum size: 4000bytes
+    -- 
+    5. CLOB: Single-byte character data.
+        range: 2 power 32
+        minimum: 1 byte
+        maximum: 4 gigabytes
+    --
+    6. NCLOB: Single-byte or fixed-length multibyte national character set (NCHAR) data.
+        range: 2 power 32
+        minimum: 1 byte
+        maximum: 4 gigabytes
+    --
+    7. LONG: Variable-length character data.
+        range: 2 power 31
+        minimum: 1 byte
+        maximum: 2 gigabytes
+--
+What is Number datatype?
+    NUMBER(p, s): Variable-length numeric data. Maximum precision p and/or scale s is 38.
+    maximum: 21 bytes
+--
+What is Date datatype?
+    DATE:  Fixed-length date and time data.
+    range: from Jan 1, 4712 B.C.E. to Dec 31, 4712 C.E.
+    maximum: 7 bytes
+    default format: dd-mm-yy
+--
+What is Binary datatype?
+    1. BLOB: Unstructured binary data.
+        range: 2 power 32
+        minimum: 1 byte
+        maximum: 4 gigabytes
+    --
+    2. BFILE: Binary data stored in an external file.
+        range: 2 power 32
+        minimum: 1 byte
+        maximum: 4 gigabytes
+    --
+    3. RAW(size): Variable-length raw binary data.
+        maximum size: 2000bytes
+    --
+    4. LONG RAW: Variable-length raw binary data.  
+        range: 2 power 31
+        minimum: 1 byte
+        maximum: 2 gigabytes
+--
+Is there another datatypes?
+    Yes, They are
+     ROWID: Binary data representing row addresses.
+        Fixed at 10 bytes (extended ROWID) or 6 bytes (restricted ROWID) 
+        for each row in the table.

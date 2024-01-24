@@ -1,0 +1,30 @@
+SQL> connect sys as sysdba;
+SQL> select * from tab;
+SQL> select * from dual;
+SQL> connect hr;
+SQL> ALETR USER hr IDENTIFIED BY hr ACCOUNT UNLOCK;
+SQL> select user from dual;
+SQL> select count(*) from employees;
+
+If account locks try below commands
+
+SQL> connect sys as sysdba;
+Enter password:
+Connected.
+SQL> ALTER USER hr ACCOUNT UNLOCK;
+
+User altered.
+
+SQL> SELECT * FROM DBA_AUDIT_TRAIL WHERE USERNAME = 'hr' AND ACTION_NAME = 
+	'LOGON' AND RETURNCODE != 0;
+
+no rows selected
+
+SQL> ALTER USER hr IDENTIFIED BY hr ACCOUNT UNLOCK;
+
+User altered.
+
+SQL> connect hr;
+Enter password:
+Connected.
+SQL> select * from tab;
