@@ -20,7 +20,7 @@ How to apply color in HEX format to an element?
     Color can be specified using a hexadecimal form like (#rrggbb), which 
     indicates red, green and blue.
     The hexadecimal values are specified between 00 and ff.
-    Sometimes we can write as a three degit code in css like (#rgb).
+    Sometimes we can write as a three digit code in css like (#rgb).
     It is possible when both the values are same for each components
     Example: 22dd55 = 2d5 
     Black   =   #000000

@@ -1,4 +1,4 @@
-What is dbms?
+What is DBMS?
 	Database management system is software that is used to manage the database.
 --
 What is database?
@@ -24,4 +24,14 @@ What is RDBMS?
 	Data is represented in terms of tuples (rows) in RDBMS.
 	Due to a collection of an organized set of tables, data can be accessed 
 	easily in RDBMS.
+--
+What are the difference between DBMS and RDBMS?
+DBMS:
+	DBMS applications store data as file.
+	In DBMS, data is generally stored in either a hierarchical form or 
+	a navigational form.
+RDBMS:
+	RDBMS applications store data in a tabular form.
+	In RDBMS, the tables have an identifier called primary key and the data 
+	values are stored in the form of tables.
 --

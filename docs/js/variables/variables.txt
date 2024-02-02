@@ -15,7 +15,7 @@ In how many ways we can declare variables in javascript?
 nothing
     Syntax:
         variable_name = variable_value;
-        declaration = defination;
+        declaration = definition;
     Example:
         employeeId = 101;
         firstName = "Salma";

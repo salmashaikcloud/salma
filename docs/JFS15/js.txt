@@ -18,7 +18,7 @@ datatype                yes			yes			yes
 functions               yes			yes			yes
 conditions              yes			yes			yes
 loops                   yes         yes         yes
-Arrays
+Arrays					yes         yes         yes
 --
 Dates
 Sets
@@ -26,9 +26,9 @@ Maps
 Type Conversion
 Bitwise
 Regular Expressions
-Scope
-Hoisting
-Strict Mode
+Scope					yes         yes         yes
+Hoisting				yes         yes         yes
+Strict Mode				yes         yes         yes
 This Keyword
 Arrow Function
 Classes

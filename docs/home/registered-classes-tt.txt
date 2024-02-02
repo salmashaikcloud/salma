@@ -1,0 +1,19 @@
+Apache Spark using Python
+	Date			Time			Duration
+   07/Feb/24	10:00AM-11:00AM		1Hour
+   13/Feb/24	10:00AM-01:00PM		3Hour
+   16/Feb/24	10:00AM-01:00PM		3Hour
+   21/Feb/24	10:00AM-01:00PM		3Hour
+--
+Java
+	Date			Time			Duration
+   07/Feb/24	02:00PM-02:45AM		45Minutes
+   13/Feb/24	09:30AM-05:30PM		7Hour
+   14/Feb/24	09:30AM-05:30PM		7Hour
+--
+Oracle SQL
+	Date			Time			Duration
+   15/Feb/24	02:00PM-02:45AM		45Minutes
+   22/Feb/24	09:30AM-05:30PM		7Hour
+   23/Feb/24	09:30AM-05:30PM		7Hour
+--

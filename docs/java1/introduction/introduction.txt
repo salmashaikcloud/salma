@@ -5,7 +5,7 @@ What is JAVA?
 --
 What are the java variants?
     SE 
-    EE 
+    EE spring framework
     ME 
     Embedded
     Card

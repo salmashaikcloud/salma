@@ -1,0 +1,4 @@
+Frontend				Middleware
+			Rest
+		 JSON  XML
+			SOAP

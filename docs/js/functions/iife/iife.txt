@@ -1,5 +1,5 @@
 What is IIFE?
-    IIFE stands for Imeediate Invoke function Execution.
+    IIFE stands for Immediate Invoke function Execution.
     IIFE is a JavaScript function that runs as soon as it is defined.
     Syntax:
         (function() {

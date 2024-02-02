@@ -10,7 +10,7 @@ function main() {
 
 function globalVariable() {
 	console.log("globalVariable method start");
-	n1 =14;
+	n1 = 14;
 	console.log(n1);
 	//console.log(window.n1);
 	console.log("globalVariable method end")
@@ -29,3 +29,4 @@ function accessingGlobalVariablesFromAnotherFunction() {
 	console.log(n2);
 	console.log("accessingGlobalVariablesFromAnotherFunction method ");
 }
+main();

@@ -1,4 +1,4 @@
-what is cross polocy issue?
+what is cors polocy issue?
 what is the difference between oracle home and oracle base?
 what is the default port for oracle?
 	1521
@@ -10,3 +10,8 @@ What is the table and view?
 what is the difference between user and schema?
 what is the difference between the table and view?
 what is the difference between varchar and varchar2?
+what is primary key?
+what is unique key?
+what is primary key?
+what is sequence?
+what is trigger? 

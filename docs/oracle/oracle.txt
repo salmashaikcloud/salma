@@ -143,3 +143,68 @@ Step 3: Delete Oracle Home.
         Clear temp folder
         Delete oracle files from AppData -> Roaming
         Restart your system.
+--
+What is Primary Key?
+	The primary key is the column, or set of columns, that uniquely identifies 
+	each row in the table.
+--
+What is unique key?
+	A unique constraint specifies a column, or set of columns, whose data values
+	must be unique: each data value must not be null, and it must not be the 
+	same as any other value in the column.
+--
+What is foreign key?
+	A foreign key specifies a column ("local column"), whose data values match 
+	values in the primary key or unique constraint of another table.
+--
+What is sequence?
+	Sequence is a database object from which multiple users may generate unique 
+	integers.
+--
+How to create sequence?
+Syntax:
+	CREATE SEQUENCE schema.sequence
+	SHARING = { METADATA | DATA | NONE }
+	{ INCREMENT BY | START WITH } integer
+  | { MAXVALUE integer | NOMAXVALUE }
+  | { MINVALUE integer | NOMINVALUE }
+  | { CYCLE | NOCYCLE }
+  | { CACHE integer | NOCACHE }
+  | { ORDER | NOORDER }
+  | { KEEP | NOKEEP }
+  | { SCALE {EXTEND | NOEXTEND} | NOSCALE }
+  | { SESSION | GLOBAL }
+;
+Example:
+	CREATE SEQUENCE hr.sequence
+	SHARING = { METADATA | DATA | NONE }
+	{ INCREMENT BY | START WITH } integer
+  | { MAXVALUE integer | NOMAXVALUE }
+  | { MINVALUE integer | NOMINVALUE }
+  | { CYCLE | NOCYCLE }
+  | { CACHE integer | NOCACHE }
+  | { ORDER | NOORDER }
+  | { KEEP | NOKEEP }
+  | { SCALE {EXTEND | NOEXTEND} | NOSCALE }
+  | { SESSION | GLOBAL }
+;
+
+--
+What is triggers?
+	A database trigger is procedural code that is automatically executed in 
+	response to certain events on a particular table or view in a database.
+	
+Syntax:
+  CREATE OR REPLACE TRIGGER Print_salary_changes
+  BEFORE DELETE OR INSERT OR UPDATE ON Emp_tab
+  FOR EACH ROW
+WHEN (new.Empno > 0)
+DECLARE
+    sal_diff number;
+BEGIN
+    sal_diff  := :new.sal  - :old.sal;
+    dbms_output.put('Old salary: ' || :old.sal);
+    dbms_output.put('  New salary: ' || :new.sal);
+    dbms_output.put_line('  Difference ' || sal_diff);
+END;
+/
