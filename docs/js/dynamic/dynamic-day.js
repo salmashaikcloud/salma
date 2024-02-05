@@ -1,5 +1,11 @@
 (function () {
     let day = new Date().getDay();
+    console.log("Today day is " + day);
+})
+    ();
+
+(function () {
+    let day = new Date().getDay();
     if (day == 0) {
         day = "Sunday";
     }

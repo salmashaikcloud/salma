@@ -5,27 +5,22 @@ C:\Users\Shaik Salma>node -v
 v20.10.0
 
 C:\Users\Shaik Salma>npm install
-
+--
+typescript installation
 C:\Users\Shaik Salma>npm install -g typescript@4.8
-
+typescript version
+C:\Users\Shaik Salma>tsc -v
+--
+angular installation
 C:\Users\Shaik Salma>npm install -g @angular/cli@14.2.11
-
+angular version
 C:\Users\Shaik Salma>ng version
-
+--
 C:\Users\Shaik Salma>npm install -g typescript
 
 C:\Users\Shaik Salma>npm install -g @angular/cli
-
-C:\Users\Shaik Salma>ng version
-
-C:\Users\Shaik Salma>tsc -v
-
-C:\Users\Shaik Salma>
-
-C:\work\apps>cd docs
-
-C:\work\apps\docs>cd angular
-
+--
+creating angular project
 C:\work\apps\docs\angular>ng new angular-file-upload
 ? Would you like to add Angular routing? Yes
 
@@ -40,19 +35,43 @@ C:\work\apps\docs\angular\angular-file-upload>ng build
 C:\work\apps\docs\angular\angular-file-upload>cd src
 
 C:\work\apps\docs\angular\angular-file-upload\src>cd app
-
+generating components files
 C:\work\apps\docs\angular\angular-file-upload\src\app>ng g c fileUpload
-
+--
+to run angular project
 C:\work\apps\docs\angular\angular-file-upload\src\app>ng serve
-
+C:\Users\Shaik Salma>ng serve --open //opens directly in the chrome browser
+--
 C:\work\apps\docs\angular\angular-file-upload\src\app>cd service
-
+generating services
 C:\work\apps\docs\angular\angular-file-upload\src\app\service>ng g s fileUpload
 CREATE src/app/service/file-upload.service.spec.ts (378 bytes)
 CREATE src/app/service/file-upload.service.ts (139 bytes)
-
+--
 C:\work\apps\docs\angular\angular-file-upload\src\app\service> 
-
+installing rxjs
 C:\Users\Shaik Salma>npm install ---save-dev rxjs
-
-C:\Users\Shaik Salma>ng serve --open
+--
+to run JavaScript files
+C:\Users\Shaik Salma>node filename.js
+--
+npm version
+C:\work\apps\salma>npm version
+--
+installing express framework
+C:\work\apps\salma>npm install express
+--
+local installed modules
+C:\work\nodejs\node-v14.21.3>npm ls
+--
+global installing modules
+C:\work\apps\salma>npm install express -g 
+--
+uninstalling express frame work
+C:\work\apps\salma>npm uninstall express
+--
+searching a module
+C:\work\apps\salma>npm search express
+--
+installing mysql driver
+C:\work\apps\salma>npm install mysql

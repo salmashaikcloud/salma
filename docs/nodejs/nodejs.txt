@@ -1,6 +1,8 @@
-Google V8 JavaScript runtime engine
-    Google      Chrome
-    Microsoft   Edge
+JavaScript runtime engine
+    Google      Chrome      V8 JavaScript runtime engine
+    Microsoft   Edge        V8 JavaScript runtime engine
+    Mozilla     FireFox     XXXX-JavaScript runtime engine
+    macOS       Safari      XXXX-JavaScript runtime engine
     --
     OpenJS      NodeJS
     JavaScript
@@ -78,7 +80,10 @@ How to run js files by using nodejs?
 --
 What is design time?
     // TODO Development Time
-
+--
+What is development time?
+    // TODO Development Time
+--
 What is compilation time?
     // TODO Development Testing Time
 --

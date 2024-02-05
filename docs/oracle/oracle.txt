@@ -106,8 +106,8 @@ How to provide privileges to the oracle database?
         grant connect to userName;
         grant all privileges to userName identified by password;
     Example:
-        grant connect to dms;
-        grant all privileges to dms identified by dms;
+        grant connect to hr;
+        grant all privileges to dms identified by hr;
 --
 //TODO
 What is DBMS?
