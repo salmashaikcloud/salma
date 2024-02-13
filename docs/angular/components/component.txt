@@ -1,0 +1,44 @@
+What is component?
+    Components are the main building block for Angular application.
+Each component consists of 
+    A TypeScript class - that defines behaviour.
+    A HTML template - that declares what renders on the page.
+    A CSS selector - that defines how the component is used in a template.
+    A spec.ts file - //TODO
+    Optionally, CSS styles applied to the template.
+--
+What is the default/root component?
+    app.component.ts is the default root component in an Angular application.
+--
+Can we change the root component?
+    Yes, we can change the root component.
+    app.module.ts 
+        bootstrap: [Custom-Component]
+--
+How to create a component?
+    1. Manually 
+        Create a folder of view-employees in hrms/src/apps/employees
+        In view-employees folder create a file like view-employee.component.ts
+        In view-employee.component.ts create a class as ViewEmployee   
+        Add Component decorator
+        Next import the Component in particular file
+        Example:
+            import { Component } from "@angular/core";
+            @Component({
+                selector: 'app-view-employee',
+                template: '<div> View Employees Works</div>'
+                })
+            export class ViewEmployee {
+            }
+        You have created a component manually
+        To use this component we need to add the component class name at the declarations in app.module.js file and import its path.
+    --
+    2. Command 
+        Navigation to your Angular project directory and you can create a 
+        component using command
+        ng generate component component-name
+        ng g c component-name
+--
+How to create a component in a specific folder?
+    ng g c hrms/employee/create-employee 
+--

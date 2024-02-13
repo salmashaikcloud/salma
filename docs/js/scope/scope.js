@@ -8,6 +8,8 @@ console.log("g2 value = " + g2 + " and typeof = " + typeof g2);
 console.log("g3 value = " + g3 + " and typeof = " + typeof g3);
 function functionScope() {
     /*Function scope variables*/
+    //let g3 = 10;
+    //console.log(g3);
     f1 = 4; // function scope undeclared type variable
     // Bad Syntax, use let instead of undeclared 
     // f1 is global scope, even if you are assigning value to the variable.
@@ -38,6 +40,7 @@ function functionScope() {
 
         //block scope let type variable
         let b3 = 9; // Good Syntax.
+        var g2 = 15;
         /*Block scope variables end */
     }
     // we can't access block scope variables in function scope.
@@ -45,9 +48,12 @@ function functionScope() {
     console.log("b2 value = " + b2 + " and typeof = " + typeof b2);
     //console.log("b3 value = " + b3 + " and typeof = " + typeof b3);
     /*Function scope variables end*/
+    
+    console.log("g2 value = " + g2 + " and typeof = " + typeof g2);
 }
 functionScope();
+console.log("g2 value = " + g2 + " and typeof = " + typeof g2);
 // we can't access block scope variables in global scope.
 console.log("b1 value = " + b1 + " and typeof = " + typeof b1);
 //console.log("b2 value = " + b2 + " and typeof = " + typeof b2);
-console.log("b3 value = " + b3 + " and typeof = " + typeof b3);
+//console.log("b3 value = " + b3 + " and typeof = " + typeof b3);

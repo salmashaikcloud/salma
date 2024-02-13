@@ -32,7 +32,8 @@ How to create an array with new Keyword?
 How to create an array with initial index?
     const employees = new Array(4);
     useCase
-    If you want to create an array with initial index and empty values [undefined]
+    If you want to create an array with initial index and empty values 
+    [undefined]
 --
 How to get the values from array?
     By using the index
@@ -89,4 +90,5 @@ How to print specifically the given object is array or object?
 --
 What is the difference between typeof and instanceof operator?
 	typeof operator will print datatype
-	instanceof operator will return true or false by checking the given object with specified Object Type. 
+	instanceof operator will return true or false by checking the given object 
+    with specified Object Type. 

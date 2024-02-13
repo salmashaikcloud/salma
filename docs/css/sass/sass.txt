@@ -1,0 +1,25 @@
+What is SASS?
+    SASS stands for Systematically Awesome Style Sheets.
+    SASS is an extension of CSS. It is also known as CSS pre-processor.
+    SASS used to add power and elegance to the basic language.
+    SASS is more stable and powerful CSS extension language that describes style of document cleanly and structurally. 
+    It is very useful to handle large style sheets by keeping them well 
+    organized and running quickly small style sheets.
+--
+Why use sass?
+    It is easy, short and clean in a programming construct.
+    It contains all the features of CSS along with some advance features.
+    It provides document style presentation better than flat CSS.
+    It facilitates you to keep your responsive design project more organized.
+    You don't need to repeat similar CSS again and again in your project.
+    It facilitates reusability methods, logic statements and some of the built 
+    in functions like color manipulation, mathematics and parameter lists.
+--
+What is difference between saas and scss?
+    Both are similar and do same thing, but written in different style. 
+    SCSS is latest one and considered better than Sass.
+    In Sass, the variable sign is ! instead of $ and assignment sign is = 
+    instead of :
+    In Scss, the variable sign is $ instead of ! and assignment sign is : 
+    instead of =
+--

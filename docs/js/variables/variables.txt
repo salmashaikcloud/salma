@@ -27,12 +27,12 @@ var
     Example:
         var employeeId;
         employeeId = 101;
-        var firstname = "Salma";
+        var firstName = "Salma";
 --
 What is undefined?
-    A variable declared without a value/defination will have the value as 
+    A variable declared without a value/definition will have the value as 
 	undefined.
-    A variable declared without a value/defination will have the type as 
+    A variable declared without a value/definition will have the type as 
 	undefined.
 --
 What is NaN?

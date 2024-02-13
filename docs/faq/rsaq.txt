@@ -3,7 +3,7 @@ what is selenium
 RestFul API - SpringBoot
 What are Angular life cycle
 angular life cycle hooks
-how communication can happend from one componet to another
+how communication can happened from one component to another
 reusable components -  any can access
 primeNg/ angular material
 optimization
@@ -11,8 +11,9 @@ css preprocessor like LESS/SCSS (css developed by using less & scss)
 css custom properties
 difference between adaptable and responsive
 difference between adaptive web design and responsive web design 
-cross-browser compatability
+cross-browser compatibility
 What is grunt and gulb (js)
 What is figma?
 What is difference between UI and UX design?
 What is backbone?
+What is jasmine and karma?

@@ -25,7 +25,8 @@ What is V8?
     engine, written in C++.
     It is used in Chrome, Node.js and among others.
     It implements ECMAScript and WebAssembly, and runs on Windows 7 or later,
-    macOS 10.12+, and Linux systems that use x64, IA-32, ARM, or MIPS processors.
+    macOS 10.12+, and Linux systems that use x64, IA-32, ARM, or MIP
+    processors.
     V8 can run standalone, or can be into any C++ application.
 --
 What is the use of nodeJS?

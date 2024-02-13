@@ -1,0 +1,42 @@
+What are Data Types?
+    Python variables can hold different datatypes such as
+        Text Type   	str
+        Numeric Types	int, float, complex
+        Sequence Types	list, tuple, range
+        Mapping Type    dict
+        Set Types       set, frozenset
+        Boolean Type    bool
+        Binary Types    bytes, bytearray, memoryview
+        None Type       NoneType
+--
+Text type
+    str
+        Syntax:
+            variable_name = "value"
+        Example:
+            x = "5"
+--
+Numeric type
+    int
+        Syntax:
+            variable_name = value
+        Example:
+            x = 5
+    --
+    float
+        Syntax:
+            variable_name = value 
+            Note: value must be in decimals
+        Example:
+            x = 5.0
+    --
+    complex
+        Syntax:
+            variable_name = value 
+            Note: value must be in like 1j
+        Example:
+            x = 2j
+--
+Sequence type
+    list
+        Syntax:

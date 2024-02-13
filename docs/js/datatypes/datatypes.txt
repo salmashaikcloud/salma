@@ -44,7 +44,7 @@ Is Javascript types are dynamic?
 --
 What are JavaScript Strings?
     A string or a text string is a series of characters can be written within 
-    Single or double qoutes.
+    Single or double quotes.
     If you want the text in Single quote, use double quotes.
     If you want the text in double quote, use Single quotes.
 --
@@ -57,11 +57,11 @@ What are JavaScript Booleans?
     Booleans  are often used in conditional testing.
 --
 What are JavaScript Arrays?
-    JavaScript Arrays are written in sqaure brackets and the arrey items are
+    JavaScript Arrays are written in square brackets and the array items are
     separated by comma.
 --
 What are JavaScript Objects?
-    JavaScript objects are written in curely braces.
+    JavaScript objects are written in curly braces.
     Properties are written as name : value pairs and separated by comma.
 --
 What are Empty Values?
@@ -81,7 +81,7 @@ What is undefined?
 --
 What is null?
     null is a special value and its datatype is object.
-    null means "not a refference to the value".
+    null means "not a reference to the value".
     null means "empty" or "unknown" value.
     Syntax:
         variable_type variable_name = null;

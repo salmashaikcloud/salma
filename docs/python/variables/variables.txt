@@ -1,3 +1,78 @@
 What are Variables?
     Variables are containers for storing data values.
 --
+How to create variables?
+    Python has no command for declaring a variable.
+    A variable is created the moment you first assign a value to it.
+    Syntax:
+        variable-name = value
+    Example:
+        x = 5
+    --
+    Variables do not need to be declared with any particular type, and can even 
+    change type after they have been set.
+--
+How to get variable data type?
+    You can get the data type of a variable with the type() function.
+    Syntax:
+        print(type(variable-name))
+    Example:
+        print(type(x))
+--
+Is variables case-sensitive?
+    Yes, Variables are case-sensitive
+    Example:
+        x = 5
+        X = 10
+        Here, x and X are not same
+--
+How to write variable names?
+    A variable can have a short name (like x and y) or a more descriptive name 
+    (age, firstName, fullName). 
+Rules for Python variables:
+    A variable name must start with a letter or the underscore character(_).
+    A variable name cannot start with a number.
+    A variable name can only contain alpha-numeric characters and underscores 
+    (A-z, 0-9, and _ ).
+    A variable name cannot be any of the Python keywords.
+--
+How to assign multiple values?
+    There are 3 ways:
+        1. Many Values to Multiple Variables
+        2. One Value to Multiple Variables
+        3. Unpack a Collection
+--
+Many Values to Multiple Variables
+    Python allows you to assign values to multiple variables in one line.
+    Syntax:
+        variable1, variable2, ...variable_n = value1, value2, ...value_n
+    Example:
+        x, y, z = 4, 5, 6
+Note: 
+    Make sure the number of variables matches the number of values, or else you 
+    will get an error.
+--
+One Value to Multiple Variables
+    You can assign the same value to multiple variables in one line.
+    Syntax:
+        variable1 = variable2 = value
+    Example:
+        x = y = 10
+--
+Unpack a Collection
+    If you have a collection of values in a list, tuple etc. 
+    Python allows you to extract the values into variables. 
+    This is called unpacking.
+    Syntax:
+        arrayName = [value1, value2, .... value_n]
+        variable1, variable2, ... variable_n = arrayName
+    Example
+        employees = ["salma", "sushma", "durga"]
+        x, y, z = employees
+--
+Output Variables
+    The print() function is often used to output variables.
+    In the print() function, you output multiple variables, separated by a 
+    comma.
+    The best way to output multiple variables in the print() function is to 
+    separate them with commas, which even support different data types:

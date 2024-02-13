@@ -1,7 +1,7 @@
 function main() {
-	console.log("varibles method start");
+	console.log("variables method start");
 	identifiers();
-	console.log("varibles method end");
+	console.log("variables method end");
 }
 function identifiers() {
 	console.log("identifiers method start");
@@ -12,7 +12,9 @@ function identifiers() {
 	$num = 523;
 	_num = 623;
 	num7 = 723; //case sensitive
-	NUM7 = 723; //case sensitive
+	NUM7 = 823; //case sensitive
+	console.log(num7);
+	console.log(NUM7);
 	// num# = 123;
 	// can't have a special characters other than _ and $
 	// num& = 124;

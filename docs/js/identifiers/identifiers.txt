@@ -6,7 +6,7 @@ What are Identifiers?
 	(age, sum, totalVolume).
 --
 What are the rules for declaring Identifiers?
-    Contain letters (a-z,A-Z), digits (0-9), underscores(_) and doller($) signs.
+    Contain letters (a-z,A-Z), digits (0-9), underscores(_) and dollar($) signs.
     Can't start with digit.
 	Can start with special characters _, $.
 	Case sensitive.

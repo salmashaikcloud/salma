@@ -37,6 +37,10 @@ C:\work\apps\docs\angular\angular-file-upload>cd src
 C:\work\apps\docs\angular\angular-file-upload\src>cd app
 generating components files
 C:\work\apps\docs\angular\angular-file-upload\src\app>ng g c fileUpload
+
+C:\work\apps\docs\angular\angular-file-upload\src>ng g c app/fileUpload
+To remove spec files
+C:\work\apps\docs\angular\angular-file-upload\..>ng g c fileUpload --spec false
 --
 to run angular project
 C:\work\apps\docs\angular\angular-file-upload\src\app>ng serve
@@ -75,3 +79,6 @@ C:\work\apps\salma>npm search express
 --
 installing mysql driver
 C:\work\apps\salma>npm install mysql
+--
+installing bootstrap
+C:\work\apps\salma>npm install --save bootstrap@3
