@@ -1,3 +1,8 @@
 create new folder	=	ctrl + shift + n
 new text file		=	alt + f + w + text
 switching between screens	=	alt + tab
+VScode comment multiple lines = ctrl + k + c
+VScode un-comment multiple lines = ctrl + k + u
+browser inspect window open = ctrl + shift + i or f12
+
+format query in sql = ctrl + f7

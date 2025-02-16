@@ -74,6 +74,7 @@ Administrators: Server JRE
     applications, but does not include browser integration (the Java plug-in),
     auto-update, nor an installer.
 --
-What is web site?
-What is Web application?
+What is Web Site?
+What is Web Application?
 What is Enterprise Application?
+What is Distributed Application?

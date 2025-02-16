@@ -9,9 +9,8 @@ What is getElementById()?
 --
 What is innerHTML?
     It defines the content between start tag and end tag of an element.
---
-Example:
-    document.getElementById("firstName").innerHTML = "Salma";
+	Example:
+		document.getElementById("firstName").innerHTML = "Salma";
 --
 Can javascript change HTML attribute values?
     Yes, javascript can change the HTML attribute values.
@@ -34,7 +33,7 @@ Can javascript hide HTML elements?
 --
 What is the use of <script> Tag?
 	In HTML, javascript code is inserted between <script> and </script> tags.
-	You can olace any number of scripts in an HTML document.
+	You can place any number of scripts in an HTML document.
 	Scripts can be placed in the <body> or in the <head> section or in both.
 --
 Define inline JavaScript?
@@ -59,7 +58,7 @@ Define internal JavaScript?
 		<button onclick="changeLastName()">Change First Name</button>
 --
 Define External JavaScript?
-	Scripts can also be placed in external files, it always recomended.
+	Scripts can also be placed in external files, it always recommended.
 	To use an external script, put the name of the script file in the src 
 	attribute of a <script> tag.
 	You can place an external script reference in <head> or <body> as you like.
@@ -69,7 +68,7 @@ Define External JavaScript?
 What are the Advantages of External JavaScript?
 	It separates HTML and JS code.
 	It makes HTML and JavaScript easier to read and maintain.
-	Catched JavaScript files can speed up page loads.
+	Cached JavaScript files can speed up page loads.
 --
 FAQS
 	What is difference between display:none and visibility:hidden?

@@ -1,8 +1,8 @@
 What is DOM?
     The Document Object Model(DOM) is a W3C standard.
     The W3C DOM is a platform and language-neutral interface that allows
-    programs and scripts to dynamically acces and update the content, structure 
-	and style of a document.
+    programs and scripts to dynamically access and update the content, 
+    structure and style of a document.
     The W3C standard is separated into 3 different parts:
         1. Core DOM -standard model for all document types
         2. XML DOM  -standard model for XML documents

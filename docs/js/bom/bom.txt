@@ -47,21 +47,22 @@ The window.screen object can be written without the window prefix.
 Properties
     screen.width        - the width of the visitor's screen in pixels.
     screen.height       - the height of the visitor's screen in pixels.
-    screen.availWidth   - the width of the visitor's screen in pixels, minus interface
-                            features like the Window Taskbar.
-    screen.availHeight  - the height of the visitor's screen in pixels, minus interface
-                            features like the Window Taskbar.
+    screen.availWidth   - the width of the visitor's screen in pixels, minus 
+                            interface features like the Window Taskbar.
+    screen.availHeight  - the height of the visitor's screen in pixels, minus 
+                            interface features like the Window Taskbar.
     screen.colorDepth   - the number of bits used to display one color.
     screen.pixelDepth   - the pixel depth of the screen.
 --
 Window Location
-    The window.location object can be used to get the current page address (URL) and to redirect the browser 
-    to a new page.
+    The window.location object can be used to get the current page address 
+    (URL) and to redirect the browser to a new page.
     The window.location object can be written without the window prefix.
     Examples:
         window.location.href     - returns the href (URL) of the current page
         window.location.hostname - returns the domain name of the web host
-        window.location.pathname - returns the path and filename of the current page
+        window.location.pathname - returns the path and filename of the current 
+                                    page
         window.location.protocol - returns the web protocol of the page.
         window.location.assign() - loads a new document
 --

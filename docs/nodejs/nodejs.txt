@@ -63,8 +63,8 @@ How to set nodejs path?
     C:\Users\user\work\node-v18.15.0
 --
 Why we need to set the NodeJS path?
-    If we don't set the path then we need to go to the nodejs folder(where you have
-    downloaded) and there only we can execute the JavaScript code.
+    If we don't set the path then we need to go to the nodejs folder(where you 
+	have downloaded) and there only we can execute the JavaScript code.
     If we set the path then the code can be executed (can access nodejs)
     from any folder present in your system.
 --

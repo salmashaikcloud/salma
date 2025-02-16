@@ -1,4 +1,4 @@
-Declareation and access modifiers 
+Declaration and access modifiers 
     1. java source file structure
     2. class level modifiers
     3. member level modifiers
@@ -98,4 +98,4 @@ Note:
     of the program we have to keep same as class name.
     the main advantage of this approach is readability and maintainability of
     the code will be improved.
-==
+--

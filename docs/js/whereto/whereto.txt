@@ -35,14 +35,14 @@ script tag in <head> tag?
 --
 script tag in <body> tag start?
     If we want to execute javascript code at the time of body tag
-    execution, then link script tag imediately after body start tag.
+    execution, then link script tag immediately after body start tag.
 
     It slowdowns the display speed, because script interpretation slows down 
 	the	display speed.
 --
 script tag in <body> tag bottom?
-    If we want to execute javascript code imediately before end of body tag
-    execution, then link script tag imediately after body end tag.
+    If we want to execute javascript code immediately before end of body tag
+    execution, then link script tag immediately after body end tag.
 
     It improves the display speed, because script interpretation phase is 
 	happening after the content load.

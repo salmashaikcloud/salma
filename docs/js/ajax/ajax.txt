@@ -5,7 +5,7 @@ What is synchronous?
 		Booking the movie tickets from one counter.
 --
 What is Asynchronous?
-	Executing the functions or code parallely is called asynchonous.
+	Executing the functions or code parallelly is called asynchronous.
 	Example:
 		Booking the movie tickets from multiple counters.
 --
@@ -15,7 +15,7 @@ What is AJAX?
 	from a web page [Example: Chrome].
 	AJAX stands for Asynchronous JavaScript And XML.
 	JavaScript ia synchronous by default.
-	By using ajax we can implement asynchonous mechanism in javascript.
+	By using ajax we can implement asynchronous mechanism in javascript.
 	By default javascript won't wait for to get response from the server.
 --
 What is Usage of AJAX?
@@ -26,9 +26,9 @@ What is Usage of AJAX?
 		We can Delete the records from the database.
 --
 How AJAX Works?
-	AJAX allows web pages to be updated asynchonously by exchanging data with a 
-	web server behind the scenes. This means that it is possible to update parts
-	of a web page, without reloading the whole page.
+	AJAX allows web pages to be updated asynchronously by exchanging data with 
+	a web server behind the scenes. This means that it is possible to update 
+	parts of a web page, without reloading the whole page.
 	AJAX is a misleading name. AJAX applications might use XML to transport 
 	data, but it is equally common to transport data as plain text or JSON text.
 --
@@ -38,9 +38,9 @@ Browser [Chrome]	<-->	Internet	<-->	Web Server [Tomcat]
 	2. An XMLHttpRequest object is created by javascript.
 	3. The XMLHttpRequest object sends a request to a server.
 	4. The sever processes the request.
-	5. The server prepares the reponse object.
+	5. The server prepares the response object.
 	6. The server sends a response object back to the web page.
-	7. The reponse is read ny javascript.
+	7. The response is read by javascript.
 	8. Proper action (like page update) is performed by javascript.
 --
 How to get XMLHttpRequest Object?
@@ -75,11 +75,11 @@ How to get XMLHttpRequest Object?
 --
 What is Access Across Domains?
 What is CORS policy issue?
-	For security reasons, modren browsers do not allow access across domains.
+	For security reasons, modern browsers do not allow access across domains.
 	This means that both the web page and the XML file it tries to load, must 
 	be located on the same server.
 	The examples on aadhaar all persons pic located on the aadhaar domain.
-	If you want to use the example above onone of your own web pages, persons
+	If you want to use the example above on one of your own web pages, persons
 	pics you load must be located on your own server.
 	Example
 		aadhaar		aadhaar.com 
@@ -110,7 +110,7 @@ XML or JSON?
 	JSON is understandable, shorter and faster then XML.
 --
 What is XMLHttpRequest?
-	XMLHttpRequest is used for asynchonous communication between browser and
+	XMLHttpRequest is used for asynchronous communication between browser and
 	server.
 	Sends data from the browser to serve in the background.
 	Receives the data from the serve to browser.
@@ -136,7 +136,7 @@ Methods of XMLHttpRequest?
 	open(method, URL);
 		opens the request specifying get or post method and url.
 	open(method, URL, async);
-		same as above but specifies asynchonous or not.
+		same as above but specifies asynchronous or not.
 	open(method, URL, async, username, password);
 		same as above but specifies username and password.
 	send()

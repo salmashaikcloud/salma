@@ -38,7 +38,7 @@ What are the display property values?
         top and bottom margin(for requrired width of the element) as block level elements.
     --
     4. none
-        The element is comletely removed, won't occupy space.
+        The element is completely removed, won't occupy space.
     --
     5. initial
         Sets this property to its default value.

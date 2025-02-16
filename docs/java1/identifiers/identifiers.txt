@@ -1,14 +1,14 @@
 Identifiers
     A name in java program is called identifier which can be used for
     identification purpose.
-    It can be a class-name, method-name, variable-name or lable-name.
+    It can be a class-name, method-name, variable-name or label-name.
 --
 Example
-class Test{
-    public static void main(String[] args){
-        int x = 10;
+    class Test{
+        public static void main(String[] args){
+            int x = 10;
+        }
     }
-}
 --
 In the above program 5 Identifiers are there.
 1. Test 2. main 3. args 4. String 5. x
@@ -18,22 +18,22 @@ Rules for Defining java identifiers.
     employeeId //valid
     employee_id //valid
     employee_!d //in valid
-2. Can't start with degit.
+2. Can't start with digit.
     employeeId1 //valid
     1employeeId //in valid
 3. Case sensitive.
-    int id =10; //valid
-    int Id =20; //valid
-    int ID  =30; //valid
+    int id = 10; //valid
+    int Id = 20; //valid
+    int ID = 30; //valid
 4. No length limit.
     int _qwertyuiopasdfghjklzxcvbnm123456789$ = 0;
-    But it is not recommanded to use lengthy identifiers.
+    But it is not recommended to use lengthy identifiers.
     use short and meaningful.
 5. Can't use reserved words
-    int in =10; //valid
+    int in = 10; //valid
     int if = 20;//in valid
 6. Can use predefined class names and Interface names.
-    But it is not recommanded
+    But it is not recommended
     int String = 10;
     int Runnable = 999;
 --

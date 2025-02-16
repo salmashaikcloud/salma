@@ -2,62 +2,25 @@ Tell me about your self?
 	Good morning Sir.
 	Thank you for giving me this oppurtunity to introduce about myself.
 	My name is Shaik Salma, You can call me Salma.
-	I am from Warangal in the state of Telangana but currently staying 
-	in Hyderabad.
+	I am from Warangal but currently staying in Hyderabad.
 	I completed my graduation in Bachelor's Of Engineering in the Stream of 
-	Information Technology.
-	After my graduation, I joined as an intern at Aktrix Technologies Private 
-	limited which is located at Hyderabad.
-	After completing my six months as an intern, I have been employed at Aktrix Technologies.
-	I started my carrier as a Web Application developer and my primary skill is the Frontend.
-	I can even work on Middleware as well as Backend.
-	Currently, I am working in a project named payroll and involving in the 
-	department as well as support.
+	Information Technology with 7.47CGPA.
+	I completed my Intermediate at TS model school and junior college with 92.1%.
+	I completed my SSC at TS model school and junior college with 9.0CGPA%.
+	After my graduation, I am improving my technical skills.
+	I am good at frontend. I can work with HTML, CSS, JavaScript and Ajax.
+	And also I can work on any UI development framework.
+	I worked on frontend to fetch the data from middleware to frontend by using 
+	Ajax. And also worked to push the data from frontend to database by using 
+	Ajax.
+	I can work with java programming language also.
 	My strengths are hard working and self motivated.
 	My short term goal is to be placed in a company and long term goal is to 
 	achieve a good position as an IT employee where I can build my career and 
 	help the organization too.
 	Lastly, I am quick learner and believe in learning the mistakes from my past.
-	
-Explain about your technical experience?
-	I had 2.6 years of experience in all phases of Software Development Life 
-	Cycle including design, development and testing various client/server web 
-	applications.
-	Experienced in HTML5, CSS3, Bootstrap, Jquery, javascript and typescript.
-	Experienced in javascript frameworks like angular with typescript.
-	Experienced in developing the responsive web pages using media queries.
-	Experienced in DOM, DOM functions, manipulation, core and object model.
-	Experienced in testing of rest services by using postman.
-	Experienced in consuming restful webservices by using rxjs library in angular
-	Experienced in creating template driven and reactive form in angular.
-	Experienced in creating routing and navigation in angular.
-	Proficient in different database like oracle, sql and mysql.
-	Good communication skills and problem solving in time.
-	
-Explain about your current project?
-	Project		:	Payroll
-	Client		:	Sopa Lodges - Africa
-	Team Size	:	8
-	Technologies:	HTML, CSS, JavaScript, Bootstrap, jQuery, Angular, JAVA, SQL.
-	Tool		:	Visual Studio Code, Eclipse.
-	
-		Currently, I am working for the project called payroll.
-		It will start with employee entry into the organization and ends with employee separation from the organization.
-		It is a web based project developed for creating employee, groups, roles, department.
-		From this application, an employee can submit entry time and exit time in the time sheet.
-		A person can apply for a loan, leave and mid month salary advance.
-		Manager can approve the timesheet entries, loan, leave and mid month salary advance.
-		At the end of the month, employee salary is calculated based on employee timesheet, loan, leave and mid month salary advances.
-		By using this, an organization can pay the payrolls without manual calculation.
-		Leave management  module is also there with us, employee can apply a leave, admin people will approve the leaves.
-		Implemented multiuploader file with progress bar in our application.
-		
-Explain about your roles and responsibilities for the current project?
-	Designed UI with HTML5, CSS3, JavaScript, Bootstrap and jQuery.
-	Form validations Angular, HTML.
-	Implemented routing using angular and bootstrap.
-	Used Bootstrap to make the application user-friendly in the development of the Navigation bars, Tables, Sliders, Calendars.
-	Processed JSON response data by consuming RESTFUL web services and used jQuery filter for implementing search results. 
-	Implementing Auto complete/Auto suggest functionality using Ajax, jQuery and JSON.
-	Developed application to access JSON and XML from RESTFUL Web service from consumer side using jQuery.
-	Developed design documents and provided estimates for the client requirements.
+--
+Why are you switching from IT to Non-IT?
+	My resume reached the criteria of this job. So that I applied for this job.
+	For me there is no difference between IT and Non-IT. I need a job. And I am 
+	ready to give my best. 

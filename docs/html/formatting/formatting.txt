@@ -65,7 +65,6 @@ HTML <sub> and <sup> Elements
 	<p> This text is <sup>superscripted</sup></p>
 --
 =======
-
 What is HTML Formatting?
 	HTML Formatting is a process of formatting text for better look and feel.
 --

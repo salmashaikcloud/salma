@@ -1,7 +1,7 @@
-JavaScript Comparison Oparators?
+JavaScript Comparison Operators?
 Comparison operators can be used in conditional statements to compare values and
 take action depending on the result.
-	Oparator	Description
+	Operator	Description
 	   ==		equal to
 	   ===		equal value and equal type
 	   !=		not equal

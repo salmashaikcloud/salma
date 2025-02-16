@@ -1,9 +1,13 @@
 package oops.abstraction;
 
 public abstract class EmployeesTeamLead extends EmployeesManager {
-
+	public EmployeesTeamLead() {
+		//super();
+		System.out.println("EmployeesTeamLead Constructor");
+	}
 	public void createEmployee() {
 		System.out.println("createEmployee method of EmployeesTeamLead");
+		super.createEmployee();
 	}
 	/*
 	 public void getEmployees() {

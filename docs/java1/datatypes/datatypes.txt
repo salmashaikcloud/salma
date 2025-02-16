@@ -12,7 +12,7 @@ Data Types
     non-numeric (Unsigned)
         boolean
         char
-    Numaric (Signed)
+    Numeric (Signed)
         Integral
         Floating
     Except boolean and char data types, remaining data types are signed data

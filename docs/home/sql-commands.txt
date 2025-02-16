@@ -28,3 +28,5 @@ SQL> connect hr;
 Enter password:
 Connected.
 SQL> select * from tab;
+--
+SQL> desc tab;

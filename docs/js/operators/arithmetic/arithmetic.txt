@@ -28,7 +28,7 @@ Increment ++ increases a variable by 1.
 	If the operator (++) goes before the variable, it is in "prefix form": ++y;
 	
 	Both of these statements do the same thing: increase value by 1.
-	But there is a differece between postfix increment and prefix increment.
+	But there is a difference between postfix increment and prefix increment.
 		The postfix form x++ also increment x value but returns the old value.
 		The prefix form ++y also increment x value but returns the new value.
 
@@ -44,7 +44,7 @@ Decrement -- decreases a variable by 1.
 	If the operator (--) goes before the variable, it is in "prefix form": --y;
 	
 	Both of these statements do the same thing: decreases value by 1.
-	But there is a differece between postfix decrement and prefix decrement.
+	But there is a difference between postfix decrement and prefix decrement.
 		The postfix form x-- also decrement x value but returns the old value.
 		The prefix form --y also decrement x value but returns the new value.
 

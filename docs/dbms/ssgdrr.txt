@@ -1,0 +1,10 @@
+ALTER USER hr IDENTIFIED BY hr ACCOUNT UNLOCK;
+
+ALTER USER HR  
+
+mvn install:install-file -Dfile=C:\work\apps\jar\ojdbc7-12.1.0.2.0.jar -DgroupId=com.oracle.database -DartifactId=ojdbc7 -Dversion=12.1.0.2.0 -Dpackaging=jar
+
+ C:\work\apps\jar\ojdbc7-12.1.0.2.0.jar to C:\Users\Shaik Salma\.m2\repository\com\oracle\database\ojdbc7\12.1.0.2.0\ojdbc7-12.1.0.2.0.jar
+
+
+After selecting from date then to date will be disable the before from date value. How to disable value in javascript while doing it

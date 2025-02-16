@@ -217,3 +217,10 @@ function ternary2(cls) {
         (cls <= 15) ? 'Go to Degree College' : 'Go to PG College';
     console.log(studentClass);
 }
+
+function ternary3(num) {
+    let number = (num <= 9) ? 'one digit number' : 'not one digit number';
+    console.log(number);
+}
+
+ternary3(15);

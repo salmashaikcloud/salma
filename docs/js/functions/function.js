@@ -27,6 +27,7 @@ function addition1(a, b) {
 function addition2(a, b) {
     return a + b;
 }
+main();
 
 /*function calculate(sign) {
     let s1 = document.getElementById("n1").value;
